@@ -1,0 +1,48 @@
+/* html {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+@font-face {
+  font-family: Ubuntu; /*i can give it any names, it will always work but i have to alert for using it on other places(then name should be same as font-face name)*/
+  src: url(../Fonts/Ubuntu-Medium.ttf);
+}
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  padding: 15px;
+}
+p {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  padding: 15px;
+}
+
+ul {
+  padding: 100px;
+  background-color: rgb(19, 73, 145);
+}
+
+.list-item {
+  list-style-type: none;
+  font-family: Ubuntu;
+  font-size: 20px;
+  display: inline-block;
+  white-space: normal;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+}
+
+.list-item:hover {
+  border-bottom: 5px solid yellow;
+}
