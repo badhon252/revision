@@ -6,22 +6,36 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: rgb(0, 230, 230);
 }
 /* tags  */
 body {
   /* height: 5000px; */
-  background-image: radial-gradient(
-      circle 5px at top left,
-      rgb(1, 0, 0) 0%,
-      rgb(1, 0, 0) 50%,
-      rgb(9, 9, 9) 50%,
-      rgb(9, 9, 9) 30%,
-      transparent 30%,
-      transparent 50%
+  background-image: repeating-linear-gradient(
+      135deg,
+      rgb(255, 255, 255) 0px,
+      rgb(255, 255, 255) 10px,
+      transparent 10px,
+      transparent 11px
     ),
-    linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
-  background-size: 11px 11px;
+    repeating-linear-gradient(
+      22.5deg,
+      rgb(255, 255, 255) 0px,
+      rgb(255, 255, 255) 10px,
+      transparent 10px,
+      transparent 11px
+    ),
+    linear-gradient(
+      90deg,
+      rgb(18, 12, 12),
+      rgb(3, 3, 3),
+      rgb(28, 15, 20),
+      rgb(53, 8, 8),
+      rgb(34, 17, 17)
+    );
+
+  /* background-image: url(../images/38-382638_transparent-polka-dot-background-png-transparent-square-dots.png); */
+  /* background-repeat: no-repeat; */
+  background-size: contain;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
@@ -43,37 +57,7 @@ main {
   padding: 30px 50px;
   line-height: 1.5;
   font-weight: 400;
-  color: rgb(34, 107, 0);
-  background-color: rgb(163, 163, 163);
-  border: 10px dashed black;
-  /* background-image: repeating-linear-gradient(
-      135deg,
-      rgb(255, 255, 255) 0px,
-      rgb(255, 255, 255) 10px,
-      transparent 10px,
-      transparent 11px
-    ),
-    repeating-linear-gradient(
-      22.5deg,
-      rgb(255, 255, 255) 0px,
-      rgb(255, 255, 255) 10px,
-      transparent 10px,
-      transparent 11px
-    ),
-    linear-gradient(
-      90deg,
-      rgb(18, 12, 12),
-      rgb(3, 3, 3),
-      rgb(28, 15, 20),
-      rgb(53, 8, 8),
-      rgb(34, 17, 17)
-    ); */
-  background-image: url(../images/images.jpeg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  /* background-size: cover; */
-  /* background-attachment: fixed; */
-  background-clip: padding-box;
+  background-color: rgba(255, 255, 255, 0.849);
 }
 footer button a {
   background-color: rgb(255, 0, 0);

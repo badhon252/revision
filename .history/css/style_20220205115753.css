@@ -6,24 +6,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: rgb(0, 230, 230);
 }
 /* tags  */
 body {
-  /* height: 5000px; */
-  background-image: radial-gradient(
-      circle 5px at top left,
-      rgb(1, 0, 0) 0%,
-      rgb(1, 0, 0) 50%,
-      rgb(9, 9, 9) 50%,
-      rgb(9, 9, 9) 30%,
-      transparent 30%,
-      transparent 50%
-    ),
-    linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
-  background-size: 11px 11px;
+  height: 5000px;
 }
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
 @font-face {
   font-family: Ubuntu; /*i can give it any names, it will always work but i have to alert for using it on other places(then name should be same as font-face name)*/
@@ -43,40 +30,9 @@ main {
   padding: 30px 50px;
   line-height: 1.5;
   font-weight: 400;
-  color: rgb(34, 107, 0);
-  background-color: rgb(163, 163, 163);
-  border: 10px dashed black;
-  /* background-image: repeating-linear-gradient(
-      135deg,
-      rgb(255, 255, 255) 0px,
-      rgb(255, 255, 255) 10px,
-      transparent 10px,
-      transparent 11px
-    ),
-    repeating-linear-gradient(
-      22.5deg,
-      rgb(255, 255, 255) 0px,
-      rgb(255, 255, 255) 10px,
-      transparent 10px,
-      transparent 11px
-    ),
-    linear-gradient(
-      90deg,
-      rgb(18, 12, 12),
-      rgb(3, 3, 3),
-      rgb(28, 15, 20),
-      rgb(53, 8, 8),
-      rgb(34, 17, 17)
-    ); */
-  background-image: url(../images/images.jpeg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  /* background-size: cover; */
-  /* background-attachment: fixed; */
-  background-clip: padding-box;
 }
 footer button a {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(251, 255, 0);
   padding: 15px;
   font-size: 20px;
   border: 2px solid black;
@@ -86,14 +42,14 @@ footer button a {
   right: 10px;
   text-decoration: none;
   text-transform: capitalize;
-  color: rgb(255, 255, 255);
+  color: black;
 }
 
 /* classes  */
-nav .ul {
+.ul {
   padding: 30px 50px;
   background-color: rgb(37, 42, 97);
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* .logo {
@@ -107,7 +63,6 @@ nav .ul {
   font-size: 20px;
   display: inline-block;
   white-space: normal;
-  transition: 1s all;
 }
 
 .link {
@@ -133,15 +88,6 @@ nav .ul {
 .content {
   width: 800px;
   height: 800px;
-  border: 2px solid black;
-  overflow: auto;
-  margin: auto;
-  position: relative;
-}
-
-.content h1 {
-  text-align: center;
-  background-color: rgb(255, 238, 0);
-  position: sticky;
-  top: 0;
+  border: 2px solid black;\
+  overflow: hidden;
 }

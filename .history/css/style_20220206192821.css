@@ -6,47 +6,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: rgb(0, 230, 230);
 }
 /* tags  */
 body {
   /* height: 5000px; */
-  background-image: radial-gradient(
-      circle 5px at top left,
-      rgb(1, 0, 0) 0%,
-      rgb(1, 0, 0) 50%,
-      rgb(9, 9, 9) 50%,
-      rgb(9, 9, 9) 30%,
-      transparent 30%,
-      transparent 50%
-    ),
-    linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
-  background-size: 11px 11px;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
-@font-face {
-  font-family: Ubuntu; /*i can give it any names, it will always work but i have to alert for using it on other places(then name should be same as font-face name)*/
-  src: url(../Fonts/Ubuntu-Medium.ttf);
-}
-h1 {
-  font-family: "Roboto Mono", monospace;
-  font-weight: 700;
-  padding: 15px;
-}
-p {
-  font-family: "Roboto Mono", monospace;
-  font-weight: 400;
-  padding: 15px;
-}
-main {
-  padding: 30px 50px;
-  line-height: 1.5;
-  font-weight: 400;
-  color: rgb(34, 107, 0);
-  background-color: rgb(163, 163, 163);
-  border: 10px dashed black;
-  /* background-image: repeating-linear-gradient(
+  background-image: repeating-linear-gradient(
       135deg,
       rgb(255, 255, 255) 0px,
       rgb(255, 255, 255) 10px,
@@ -67,13 +31,31 @@ main {
       rgb(28, 15, 20),
       rgb(53, 8, 8),
       rgb(34, 17, 17)
-    ); */
-  background-image: url(../images/images.jpeg);
+    );
+
+  background-image: url(../images/38-382638_transparent-polka-dot-background-png-transparent-square-dots.png);
   background-repeat: no-repeat;
-  background-position: center center;
-  /* background-size: cover; */
-  /* background-attachment: fixed; */
-  background-clip: padding-box;
+  background-size: cover;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+@font-face {
+  font-family: Ubuntu; /*i can give it any names, it will always work but i have to alert for using it on other places(then name should be same as font-face name)*/
+  src: url(../Fonts/Ubuntu-Medium.ttf);
+}
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  padding: 15px;
+}
+p {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  padding: 15px;
+}
+main {
+  padding: 30px 50px;
+  line-height: 1.5;
+  font-weight: 400;
 }
 footer button a {
   background-color: rgb(255, 0, 0);

@@ -6,22 +6,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: rgb(0, 230, 230);
 }
 /* tags  */
 body {
   /* height: 5000px; */
-  background-image: radial-gradient(
-      circle 5px at top left,
-      rgb(1, 0, 0) 0%,
-      rgb(1, 0, 0) 50%,
-      rgb(9, 9, 9) 50%,
-      rgb(9, 9, 9) 30%,
-      transparent 30%,
-      transparent 50%
-    ),
-    linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
-  background-size: 11px 11px;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
@@ -33,6 +21,7 @@ h1 {
   font-family: "Roboto Mono", monospace;
   font-weight: 700;
   padding: 15px;
+  color: rgb(0, 230, 230);
 }
 p {
   font-family: "Roboto Mono", monospace;
@@ -70,10 +59,10 @@ main {
     ); */
   background-image: url(../images/images.jpeg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
   /* background-size: cover; */
   /* background-attachment: fixed; */
-  background-clip: padding-box;
+  /* background-origin: padding-box; */
 }
 footer button a {
   background-color: rgb(255, 0, 0);
