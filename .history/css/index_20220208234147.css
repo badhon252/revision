@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: radial-gradient(
+      circle 5px at top left,
+      rgb(1, 0, 0) 0%,
+      rgb(1, 0, 0) 50%,
+      rgb(9, 9, 9) 50%,
+      rgb(9, 9, 9) 30%,
+      transparent 30%,
+      transparent 50%
+    ),
+    linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+  background-size: 11px 11px;
+  font-family: "Roboto", sans-serif;
+}
+img {
+  max-width: 80%;
+}
+.container {
+  display: flex;
+  background-color: #fff;
+  margin: 5% 25%;
+  padding: 1.5rem;
+  flex-wrap: nowrap;
+}
+.interaction {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px;
+  background-color: #f5f6fa;
+  margin: 0.8rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.interaction i {
+  opacity: 50%;
+}
+.interaction i:hover {
+  opacity: 100%;
+}
+
+.top {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.top i {
+  font-weight: 600;
+}
+.name {
+  padding: 1rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.time {
+  padding: 1rem;
+  font-size: 0.9rem;
+  opacity: 50%;
+  font-style: italic;
+}
+
+/* i moved a item to the right align  */
+.reply-btn {
+  margin: 0 0 0 auto;
+}
+.reply {
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem;
+  color: blue;
+  font-size: 600;
+}
+.bottom p {
+  padding: 1rem 0;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+
+/* responsive desgin ============== */
+
+@media (max-width: 1400px) {
+  .container {
+    margin: 3% 20%;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    margin: 3% 10%;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    margin: 3% 5%;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+  }
+
+  .reply-btn {
+    align-self: flex-end;
+  }
+}
+/*
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
+*/

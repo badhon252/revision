@@ -1,0 +1,23 @@
+body {
+  padding: 20px;
+}
+.box1 {
+  display: flex;
+}
+/* .title {
+}
+.image1 {
+} */
+.box2 {
+  display: flex;
+  padding: 20px;
+}
+.section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.sectionbox {
+  border: 1px solid black;
+  padding: 10px;
+  flex-basis: 250px;
+}
