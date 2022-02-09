@@ -4,24 +4,13 @@
   box-sizing: border-box;
 }
 body {
-  background-image: radial-gradient(
-      circle 5px at top left,
-      rgb(255, 255, 255) 0%,
-      rgb(54, 54, 54) 50%,
-      rgb(9, 9, 9) 50%,
-      rgb(0, 0, 0) 30%,
-      transparent 30%,
-      transparent 50%
-    ),
-    linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+  background-image: radial-gradient( circle 5px at top left, rgb(255, 255, 255) 0%, rgb(54, 54, 54) 50%, rgb(9, 9, 9) 50%, rgb(0, 0, 0) 30%, transparent 30%, transparent 50% ), linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255))
   background-size: 11px 11px;
   font-family: "Roboto", sans-serif;
 }
 img {
   width: 15%;
   height: 15%;
-  min-width: 10%;
-  min-height: 10%;
 }
 .container {
   background-color: #fff;

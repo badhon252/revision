@@ -20,8 +20,6 @@ body {
 img {
   width: 15%;
   height: 15%;
-  min-width: 10%;
-  min-height: 10%;
 }
 .container {
   background-color: #fff;

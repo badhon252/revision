@@ -6,10 +6,10 @@
 body {
   background-image: radial-gradient(
       circle 5px at top left,
-      rgb(255, 255, 255) 0%,
-      rgb(54, 54, 54) 50%,
+      rgb(1, 0, 0) 0%,
+      rgb(1, 0, 0) 50%,
       rgb(9, 9, 9) 50%,
-      rgb(0, 0, 0) 30%,
+      rgb(9, 9, 9) 30%,
       transparent 30%,
       transparent 50%
     ),
@@ -20,8 +20,6 @@ body {
 img {
   width: 15%;
   height: 15%;
-  min-width: 10%;
-  min-height: 10%;
 }
 .container {
   background-color: #fff;
@@ -95,7 +93,7 @@ img {
 .reply {
   font-family: "Roboto", sans-serif;
   padding: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .reply-btn i {
@@ -105,7 +103,6 @@ img {
   padding-bottom: 1rem;
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
-  color: #697174;
 }
 
 /* responsive design ============== */
