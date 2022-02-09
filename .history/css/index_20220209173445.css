@@ -128,12 +128,12 @@ img {
     margin: 3% 10%;
   }
 }
-@media (max-width: 48rem) {
+@media (max-width: 768px) {
   .container {
     margin: 3% 5%;
   }
 }
-@media (max-width: 36rem) {
+@media (max-width: 576px) {
   .container {
     position: relative;
     padding: 2rem;

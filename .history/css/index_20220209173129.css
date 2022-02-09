@@ -102,10 +102,9 @@ img {
   font-weight: 600;
 }
 
-/* ::before sudo elements  */
 .reply-btn:hover::before {
   content: attr(data-content);
-  color: rgb(0, 0, 0);
+  color: red;
   background-color: rgb(251, 255, 0);
 }
 
@@ -118,22 +117,22 @@ img {
 
 /* responsive design ============== */
 
-@media (max-width: 87.5rem) {
+@media (max-width: 1400px) {
   .container {
     margin: 3% 20%;
   }
 }
-@media (max-width: 62rem) {
+@media (max-width: 992px) {
   .container {
     margin: 3% 10%;
   }
 }
-@media (max-width: 48rem) {
+@media (max-width: 768px) {
   .container {
     margin: 3% 5%;
   }
 }
-@media (max-width: 36rem) {
+@media (max-width: 576px) {
   .container {
     position: relative;
     padding: 2rem;
