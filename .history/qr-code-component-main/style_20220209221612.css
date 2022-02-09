@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto+Mono:wght@300&display=swap");
+
+.container {
+  background-color: #d5e1ef;
+  padding: 200px;
+  height: 98vh;
+  text-align: center;
+}
+
+.card {
+  width: 25rem;
+  margin: auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  padding: 1rem 0;
+  font-family: "Courier New", Courier, monospace;
+  font-family: "Outfit", sans-serif;
+  line-height: 1.5;
+}
+.attribution {
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Outfit", sans-serif;
+}

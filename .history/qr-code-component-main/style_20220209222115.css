@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto+Mono:wght@300&display=swap");
+
+.container {
+  background-color: #d5e1ef;
+  padding: 200px;
+  height: 98vh;
+  text-align: center;
+}
+
+.card {
+  width: 26rem;
+  margin: auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 18px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 18px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 18px -5px rgba(0, 0, 0, 0.75);
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  padding: 1rem 0;
+  font-family: "Courier New", Courier, monospace;
+  font-family: "Outfit", sans-serif;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.attribution {
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}

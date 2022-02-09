@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #d5e1ef;
+  padding: 200px;
+  height: 98vh;
+  text-align: center;
+}
+
+.card {
+  width: 25rem;
+  margin: auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+h4 {
+  padding: 1rem 0;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.attribution {
+  text-align: center;
+}

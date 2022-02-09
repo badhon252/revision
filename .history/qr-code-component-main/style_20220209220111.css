@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #d5e1ef;
+}
+
+.card {
+  width: 15rem;
+  margin: auto;
+  background-color: #fff;
+}
+
+img {
+  width: 100%;
+}

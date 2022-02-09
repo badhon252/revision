@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #d5e1ef;
+  padding: 200px;
+  height: 90vh;
+}
+
+.card {
+  width: 25rem;
+  margin: auto;
+  background-color: #fff;
+  padding: 15px;
+}
+
+img {
+  width: 100%;
+}
