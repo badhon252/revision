@@ -7,11 +7,7 @@
 
 .container {
   background-color: #d5e1ef;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
   height: 98vh;
 }
 

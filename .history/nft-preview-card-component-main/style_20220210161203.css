@@ -65,9 +65,9 @@ main {
 }
 
 .img:hover .hover {
-  cursor: pointer;
   /* background-color: #52b7ce; */
   z-index: 1;
+  cursor: pointer;
 }
 .img:hover .main-img {
   opacity: 30%;

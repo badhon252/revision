@@ -19,7 +19,6 @@
   width: 25rem;
   /* margin: auto; */
   background-color: #fff;
-
   padding: 25px;
   border-radius: 15px;
   box-shadow: 0px 0px 18px -5px rgba(0, 0, 0, 0.75);
@@ -28,8 +27,8 @@
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  /* max-width: 100%; */
+  /* height: auto; */
   border-radius: 15px;
 }
 

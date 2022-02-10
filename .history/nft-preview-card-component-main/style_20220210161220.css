@@ -62,10 +62,10 @@ main {
   top: 40%;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
 }
 
 .img:hover .hover {
-  cursor: pointer;
   /* background-color: #52b7ce; */
   z-index: 1;
 }
