@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --width: 100%;
+  --pad: 20px 0;
+}
+main {
+  background-color: #0d1a2d;
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+}
+
+.card {
+  /* border: 1px solid yellow; */
+  width: 23rem;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #15273f;
+  box-shadow: 2px 18px 30px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 18px 30px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 18px 30px -3px rgba(0, 0, 0, 0.75);
+}
+
+.img img {
+  width: var(--width);
+  background-image: cover;
+  border-radius: 10px;
+}
+
+h2 {
+  padding: var(--pad);
+}
+p {
+  padding: 10px 0;
+  color: #6f86a8;
+}
+.info {
+  padding: 10px 0;
+}
+
+.avatar {
+  width: 10%;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.profile {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.p-info {
+  padding: 0 15px;
+}
+.p-info span {
+  color: #6f86a8;
+}
+.info {
+  display: flex;
+}
+.info .amount {
+  color: #2ff0ef;
+}
+.time {
+  margin-left: auto;
+  margin-right: 0;
+}
+/* bottom  */
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+}

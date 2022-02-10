@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --width: 100%;
+}
+main {
+  background-color: #0d1a2d;
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+}
+
+.card {
+  width: 30rem;
+  border: 1px solid yellow;
+}
+
+.img img {
+  width: var(--width);
+  background-image: cover;
+}
+
+.avatar {
+  width: 10%;
+}
+
+/* bottom  */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}

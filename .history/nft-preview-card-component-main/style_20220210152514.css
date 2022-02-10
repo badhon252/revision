@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --width: 100%;
+  --pad: 20px 0;
+}
+main {
+  background-color: #0d1a2d;
+  color: aliceblue;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+}
+
+.card {
+  /* border: 1px solid yellow; */
+  width: 23rem;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #15273f;
+  box-shadow: 2px 18px 30px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 18px 30px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 18px 30px -3px rgba(0, 0, 0, 0.75);
+}
+
+.img {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.img .main-img {
+  width: var(--width);
+  /* background-image: cover; */
+  border-radius: 10px;
+}
+/* .img:hover {
+  background-color: #52b7ce;
+  background-image: url(./images/icon-view.svg);
+  background-repeat: no-repeat;
+} */
+
+/* .hover-img {
+  background-color: #2ff0ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.hover {
+  position: absolute;
+  z-index: -11111;
+  left: 0;
+  right: 0;
+  top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img:hover .hover {
+  background-color: #52b7ce;
+  z-index: 1;
+  opacity: 50%;
+}
+h2 {
+  padding: var(--pad);
+  font-weight: 600;
+}
+p {
+  padding: 10px 0;
+  color: #6f86a8;
+  font-weight: 300;
+}
+.info {
+  padding: 10px 0;
+  font-weight: 400;
+}
+
+.avatar {
+  width: 10%;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.profile {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.p-info {
+  padding: 0 15px;
+}
+.p-info span {
+  color: #6f86a8;
+}
+.info {
+  display: flex;
+}
+.info .amount {
+  color: #2ff0ef;
+}
+.time {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* bottom  */
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+}
