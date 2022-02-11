@@ -75,12 +75,9 @@ main {
   /* background-color: #52b7ce; */
 }
 
-/* .img::after:hover .hover-img {
-  content: "";
+.img:hover .hover-img {
   z-index: 111;
-  background-color: #52b7ce;
-  background-size: auto;
-} */
+}
 .img:hover .main-img {
   opacity: 30%;
 }

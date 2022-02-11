@@ -68,19 +68,16 @@ main {
   
 } */
 
-.img:hover .hover {
+/* .img:hover .hover {
   cursor: pointer;
   position: absolute;
   z-index: 1111581;
-  /* background-color: #52b7ce; */
-}
-
-/* .img::after:hover .hover-img {
-  content: "";
-  z-index: 111;
   background-color: #52b7ce;
-  background-size: auto;
 } */
+
+.img:hover .hover-img {
+  z-index: 111;
+}
 .img:hover .main-img {
   opacity: 30%;
 }

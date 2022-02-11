@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 30rem;
+  height: 30rem;
+  background-color: rgb(25, 140, 185);
+}
+
+.child {
+  width: 15rem;
+  height: 15rem;
+  background-color: rgb(255, 251, 0);
+}

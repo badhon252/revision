@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(27, 25, 25);
+}
+
+.parent {
+  width: 30rem;
+  height: 30rem;
+  background-color: rgb(23, 71, 160);
+  margin: 100px auto;
+  border: 5px solid rgb(180, 5, 250);
+}
+
+.child {
+  padding: 5rem;
+  width: 15rem;
+  height: 15rem;
+  background-color: rgb(255, 251, 0);
+  transition: all 1s;
+}
+
+.child:hover {
+  background-color: rgb(24, 255, 159);
+  transform: translateX(50%);
+}

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(27, 25, 25);
+}
+
+.parent {
+  width: 30rem;
+  height: 30rem;
+  background-color: rgb(51, 255, 0);
+  /* background-image: linear-gradient(
+    to bottom,
+    rgb(0, 0, 185),
+    rgb(0, 189, 189),
+    rgb(255, 0, 0),
+    rgb(0, 255, 0)
+  ); */
+  margin: 100px auto;
+  border: 5px solid rgb(180, 5, 250);
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+.child {
+  padding: 5rem;
+  font-size: 2rem;
+  width: 15rem;
+  height: 15rem;
+  background-color: rgb(255, 251, 0);
+  transition: all 1s;
+  transition-timing-function: cubic-bezier(0.1, 1, 1, 0.1);
+}
+
+.parent:hover .child {
+  background-color: rgb(24, 255, 159);
+  transform: translateX(100%);
+  /* transform: scale(1.5); */
+}
+
+.parent:hover {
+  transform: skewY(1deg);
+}

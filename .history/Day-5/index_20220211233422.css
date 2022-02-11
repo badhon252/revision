@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(27, 25, 25);
+}
+
+.parent {
+  width: 30rem;
+  height: 30rem;
+  background-color: rgb(109, 0, 182);
+  /* background-image: linear-gradient(
+    to bottom,
+    rgb(0, 0, 185),
+    rgb(0, 189, 189),
+    rgb(255, 0, 0),
+    rgb(0, 255, 0)
+  ); */
+  margin: 100px auto;
+  border-style: solid;
+  border-width: 10px;
+  border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+}
+
+.child {
+  padding: 5rem;
+  font-size: 2rem;
+  width: 15rem;
+  height: 15rem;
+  background-color: rgb(255, 251, 0);
+  transition: all 1s;
+  transition-timing-function: cubic-bezier(0.1, 1, 1, 0.1);
+}
+
+.parent:hover .child {
+  background-color: rgb(24, 255, 159);
+  transform: translateX(100%);
+  /* transform: scale(1.5); */
+}
+
+/*The matrix() method combines all the 2D transform methods into one.
+The matrix() method take six parameters, containing mathematic functions, which allows you to rotate, scale, move (translate), and skew elements.
+
+##The parameters are as follow: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())*/
+
+.parent:hover {
+  /* transform: skewY(1deg); */
+  transform: matrix(0, 1deg, 0, 0, 100%, 0);
+  border-image: conic-gradient(
+      red,
+      aqua,
+      yellow,
+      lime,
+      blue,
+      magenta,
+      red,
+      yellow,
+      lime
+    )
+    1;
+}

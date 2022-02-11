@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+
+.parent {
+  width: 30rem;
+  height: 30rem;
+  background-color: rgb(25, 140, 185);
+}
+
+.child {
+  width: 15rem;
+}
