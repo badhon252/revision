@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header .test {
+  border: 0.3rem solid black;
+  background-image: radial-gradient(
+      circle 5px at top left,
+      rgba(1, 0, 0, 0.45) 0%,
+      rgba(1, 0, 0, 0.45) 50%,
+      black 50%,
+      black 30%,
+      transparent 30%,
+      transparent 50%
+    ),
+    -webkit-gradient(linear, left top, right top, from(white), to(white));
+  background-image: radial-gradient(
+      circle 5px at top left,
+      rgba(1, 0, 0, 0.45) 0%,
+      rgba(1, 0, 0, 0.45) 50%,
+      black 50%,
+      black 30%,
+      transparent 30%,
+      transparent 50%
+    ),
+    linear-gradient(90deg, white, white);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  font-weight: 900;
+  background-color: cyan;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header .test h1:hover {
+  color: blueviolet;
+}
+
+header .test h1:hover::after {
+  content: " Test";
+}
+
+header .test1 {
+  border: 0.3rem solid black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+  font-weight: 900;
+  background-color: #baffb4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header .test1 h1:hover {
+  color: blue;
+}
+
+header .test1 h1:hover::after {
+  content: " test 1";
+}
+
+header .test2 {
+  border: 0.3rem solid black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 4rem;
+  font-weight: 900;
+  background-color: #ed5edd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header .test2 h1:hover {
+  color: #fff;
+}
+
+header .test2 h1:hover::after {
+  content: " Test2";
+}
+/*# sourceMappingURL=style.css.map */

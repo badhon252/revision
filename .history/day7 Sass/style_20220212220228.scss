@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// variable===============
+$bg-image: radial-gradient(
+    circle 5px at top left,
+    rgba(1, 0, 0, 0.45) 0%,
+    rgba(1, 0, 0, 0.45) 50%,
+    rgb(0, 0, 0) 50%,
+    rgb(0, 0, 0) 30%,
+    transparent 30%,
+    transparent 50%
+  ),
+  linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+
+$border: 0.3rem solid black;
+
+$box: border-box;
+
+// mixin=============
+@mixin commonCode($para1, $para2) {
+  font-family: "Courier New", Courier, monospace;
+  font-size: $para1;
+  font-weight: 900;
+  background-color: $para2;
+}
+@mixin contentAlign {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  box-sizing: $box;
+}
+
+// nesting========
+header {
+  .test {
+    border: $border;
+    // background-image: $bg-image;
+    @include commonCode(2rem, cyan);
+    @include contentAlign;
+    h1:hover {
+      color: blueviolet;
+      &::after {
+        content: " Test";
+      }
+    }
+  }
+  .test1 {
+    border: $border;
+    @include commonCode(3rem, #baffb4);
+    @include contentAlign();
+    h1:hover {
+      color: blue;
+      &::after {
+        content: " test 1";
+      }
+    }
+  }
+  .test2 {
+    border: $border;
+    @include commonCode(4rem, #ed5edd);
+    @include contentAlign();
+    h1:hover {
+      color: #fff;
+      &::after {
+        content: " Test2";
+      }
+    }
+  }
+}

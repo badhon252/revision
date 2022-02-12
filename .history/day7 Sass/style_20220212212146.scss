@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@mixin commonCode($para1, $para2, $para3) {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  font-weight: 900;
+}
+header {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: cyan;
+  justify-content: center;
+  align-items: center;
+
+  .test {
+    &:hover {
+      color: blueviolet;
+    }
+  }
+
+  .test1 {
+  }
+}

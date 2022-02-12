@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@mixin commonCode($para1, $para2) {
+  font-family: "Courier New", Courier, monospace;
+  font-size: $para1;
+  font-weight: 900;
+  background-color: $para2;
+}
+@mixin contentAlign {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  .test {
+    @include commonCode(2rem, cyan);
+    @include contentAlign;
+    h1:hover {
+      color: blueviolet;
+      &::after {
+        content: " Test";
+      }
+    }
+  }
+  .test1 {
+    @include commonCode(3rem, lime);
+    @include contentAlign();
+    h1:hover {
+      color: blue;
+      &::after {
+        content: " test 1";
+      }
+    }
+  }
+  .test2 {
+    @include commonCode(4rem, #ed5edd;);
+    @include contentAlign();
+    h1:hover {
+      color: 
+      &::after {
+        content: " Test2";
+        color: #fff;
+      }
+    }
+  }
+}

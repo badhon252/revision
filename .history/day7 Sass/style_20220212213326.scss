@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@mixin commonCode($para1) {
+  font-family: "Courier New", Courier, monospace;
+  font-size: $para1;
+  font-weight: 900;
+}
+@mixin axisSize {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  background-color: cyan;
+
+  .test {
+    @include commonCode(3rem);
+    &:hover {
+      color: blueviolet;
+      &::after {
+        content: " Test";
+      }
+    }
+  }
+  .test1 {
+    @include commonCode(4rem);
+    &:hover {
+      color: blue;
+      &::after {
+        content: " test 1";
+      }
+    }
+  }
+  .test2 {
+    @include commonCode(5rem);
+    &:hover {
+      color: red;
+      &::after {
+        content: " Test2";
+      }
+    }
+  }
+}
