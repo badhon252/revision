@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-main {
+  width: 25rem;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  img {
+    max-width: 100%;
+  }
+
+  .overlay {
+    position: absolute;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@mixin displayProp($para1) {
+  display: flex;
+  justify-content: center;
+  flex-direction: $para1;
+  align-items: center;
+}
+main {
+  height: 100vh;
+  @include displayProp(column);
+}
+.img-main {
+  width: 25rem;
+  height: auto;
+  @include displayProp(column);
+  position: relative;
+  img {
+    max-width: 100%;
+  }
+
+  .overlay {
+    @include displayProp(column);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+
+    p {
+      padding: 15px;
+    }
+  }
+}
