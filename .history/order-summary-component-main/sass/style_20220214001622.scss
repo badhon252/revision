@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.main {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 98vh;
+  width: 100vw;
+
+  .card {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // margin: 0 auto;
+    background-color: #fff;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

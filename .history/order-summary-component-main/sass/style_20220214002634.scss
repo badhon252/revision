@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@mixin flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 98vh;
+  width: 100vw;
+  text-align: center;
+  background-color: #e0e8ff;
+  @include flex();
+
+  .card {
+    width: 25rem;
+    border-radius: 15px;
+
+    // margin: 0 auto;
+    background-color: #fff;
+  }
+  .main__summary {
+    padding: 20px;
+    .order {
+      padding: 20px 0;
+      font-size: 2rem;
+    }
+    .info {
+      font-size: 1rem;
+    }
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

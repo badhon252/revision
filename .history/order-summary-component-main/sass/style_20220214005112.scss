@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Red Hat Display", sans-serif;
+  list-style: none;
+}
+
+@mixin flex($para1) {
+  display: flex;
+  flex-direction: $para1;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 98vh;
+  width: 100vw;
+  text-align: center;
+  background-color: #e0e8ff;
+  @include flex(column);
+
+  .card {
+    width: 25rem;
+    border-radius: 15px;
+
+    // margin: 0 auto;
+    background-color: #fff;
+  }
+  .main__summary {
+    padding: 20px;
+    .order {
+      padding: 20px 0;
+      font-size: 2rem;
+      font-weight: 900;
+    }
+    .info {
+      font-size: 1rem;
+      padding: 15px 0;
+      font-weight: 500;
+    }
+    .main__summary--plan {
+      padding: 15px 0;
+
+      .plan__pack {
+        background-color: #f8f9fe;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 15px;
+
+        .plan {
+          padding: 1rem;
+          font-size: 0.8rem;
+          font-weight: 700;
+        }
+        .change {
+          //   margin: 0 auto 0 0;
+          text-align: right;
+        }
+      }
+
+      button {
+        background-color: hsl(245, 75%, 52%);
+      }
+    }
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
