@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+main {
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  //   border: 2px solid black;
+  max-width: 63rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+
+  .card_one {
+    background-color: #e28525;
+    padding: 50px;
+    button {
+      color: #e28525;
+    }
+  }
+  .card_two {
+    background-color: #016972;
+    padding: 50px;
+    button {
+      color: #016972;
+    }
+  }
+  .card_three {
+    background-color: #00403f;
+    padding: 50px;
+    button {
+      color: #00403f;
+    }
+  }
+
+  .heading {
+    padding: 20px 0;
+    font-size: 2.5rem;
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+  }
+  p {
+    padding: 15px 0;
+    font-weight: 400;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.95rem;
+  }
+  button {
+    margin: 30px 0 10px 0;
+    padding: 15px 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    font-size: 0.9rem;
+    font-weight: 700;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0);
+      color: #fff;
+    }
+  }
+}
+
+// footer
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1440px) {
+  .card {
+    max-width: 50rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .card {
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

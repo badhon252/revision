@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+main {
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  //   border: 2px solid black;
+  width: 63rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+
+  .card_one {
+    background-color: #e28525;
+    padding: 50px;
+  }
+  .card_two {
+    background-color: #016972;
+    padding: 50px;
+  }
+  .card_three {
+    background-color: #00403f;
+    padding: 50px;
+  }
+
+  .heading {
+    padding: 20px 0;
+    font-size: 1.5rem;
+  }
+  p {
+    padding: 15px 0;
+  }
+  button {
+    margin: 30px 0 10px 0;
+    padding: 15px 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0);
+      color: #fff;
+    }
+  }
+}

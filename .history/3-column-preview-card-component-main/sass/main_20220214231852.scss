@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+main {
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 2px solid black;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  .card_one {
+    background-color: #e28525;
+    padding: 50px;
+  }
+  .card_two {
+    background-color: #016972;
+    padding: 20px;
+  }
+  .card_three {
+    background-color: #00403f;
+    padding: 20px;
+  }
+}
