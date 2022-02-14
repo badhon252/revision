@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+@mixin flex($param1) {
+  display: flex;
+  flex-direction: $param1;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: #19a1ad;
+  background-image: url("../images/bg-pattern-top.svg");
+  height: 98vh;
+  .card {
+    max-width: 21rem;
+    background-color: #fff;
+    position: relative;
+    top: 30%;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 0 auto;
+
+    .profile {
+      @include flex(column);
+
+      .cover-img {
+        min-width: 100%;
+        width: max-content;
+      }
+
+      .profile__img {
+        border-radius: 50%;
+        margin-top: -50%;
+        border: 5px solid gainsboro;
+        position: relative;
+        z-index: 111;
+      }
+
+      .profile__bio {
+        display: flex;
+        padding: 10px;
+        font-size: 1.2rem;
+
+        .profile__name {
+          font-weight: 700;
+        }
+
+        .profile__age {
+          font-weight: 400;
+          align-self: center;
+          padding: 0 10px;
+        }
+      }
+
+      .profile__location {
+        font-weight: 400;
+        padding: 5px 0 10px 0;
+      }
+    }
+
+    .statistics {
+      border-top: 2px solid rgba(0, 0, 0, 0.116);
+      display: flex;
+      padding: 25px;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 10px;
+
+      .followers {
+        padding: 10px;
+
+        .count {
+          font-weight: 700;
+        }
+        span {
+          font-weight: 400;
+        }
+      }
+      .likes {
+        padding: 10px;
+
+        .count {
+          font-weight: 700;
+        }
+        span {
+          font-weight: 400;
+        }
+      }
+      .photos {
+        padding: 10px;
+
+        .count {
+          font-weight: 700;
+        }
+        span {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

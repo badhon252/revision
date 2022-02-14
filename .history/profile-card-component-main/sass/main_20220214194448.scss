@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@mixin flex($param1) {
+  display: flex;
+  flex-direction: $param1;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: #19a1ad;
+  background-image: url("../images/bg-pattern-top.svg");
+  height: 98vh;
+  .card {
+    max-width: 22rem;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+
+    .profile {
+      @include flex(column);
+
+      .cover-img {
+        min-width: 100%;
+        width: max-content;
+      }
+
+      .profile__img {
+        border-radius: 50%;
+        margin-top: -50%;
+        border: 5px solid gainsboro;
+        position: relative;
+        z-index: 111;
+      }
+
+      .profile__bio {
+        display: flex;
+        padding: 10px;
+
+        .profile__name {
+          //   font-size: 1.2rem;
+          font-weight: 700;
+        }
+
+        .profile__age {
+          padding: 0 10px;
+        }
+      }
+
+      .profile__location {
+        padding: 10px;
+      }
+    }
+
+    .statistics {
+      border-top: 2px solid rgba(0, 0, 0, 0.116);
+      display: flex;
+      padding: 25px;
+      justify-content: space-around;
+      margin-top: 10px;
+
+      .followers {
+        padding: 10px;
+      }
+    }
+  }
+}

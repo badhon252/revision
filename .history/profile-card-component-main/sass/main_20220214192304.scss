@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@mixin flex($param1) {
+  display: flex;
+  flex-direction: $param1;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: #19a1ad;
+  background-image: url("../images/bg-pattern-top.svg");
+  height: 98vh;
+  .card {
+    max-width: 20rem;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+
+    @include flex(column);
+
+    .profile {
+      @include flex(column);
+
+      .profile__img {
+        border-radius: 50%;
+        margin-top: -50%;
+        border: 5px solid gainsboro;
+        position: relative;
+        z-index: 111;
+      }
+
+      .profile__bio {
+        display: flex;
+        padding: 10px;
+
+        .profile__name {
+          font-size: 1.2rem;
+          font-weight: 700;
+        }
+
+        .profile__age {
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+}

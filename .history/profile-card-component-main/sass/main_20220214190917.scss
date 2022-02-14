@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+@mixin flex($param1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $param1;
+}
+
+main {
+  background-color: #19a1ad;
+  background-image: url("../images/bg-pattern-top.svg");
+  height: 98vh;
+  .card {
+    max-width: 20rem;
+    background-color: #fff;
+    @include flex(column);
+
+    .profile {
+      @include flex($column);
+    }
+  }
+}
