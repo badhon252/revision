@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #edf2f8;
+
+  .card {
+    max-width: 66rem;
+    padding: 50px;
+
+    .heading {
+      display: flex;
+      align-items: center;
+      padding: 15px 0;
+      .pro_pic {
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 50%;
+      }
+      .name-edu {
+        padding: 0 20px;
+      }
+    }
+
+    .card__one-two {
+      background-color: #733fc8;
+      padding: 30px;
+    }
+    .card__three {
+      background-color: #495669;
+      padding: 30px;
+    }
+    .card__four-eight {
+      background-color: #ffffff;
+      padding: 30px;
+    }
+    .card__five {
+      background-color: #ffffff;
+      padding: 30px;
+    }
+    .card__six-seven {
+      background-color: #18202d;
+      padding: 30px;
+    }
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #edf2f8;
+
+  .card {
+    max-width: 66rem;
+    padding: 50px;
+
+    .heading {
+      display: flex;
+      .pro_pic {
+        border: 1px solid rgb(192, 191, 191);
+        border-radius: 50%;
+        margin: 15px;
+      }
+    }
+
+    .card__one-two {
+    }
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
