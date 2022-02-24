@@ -196,23 +196,13 @@ main .card img {
 }
 
 @media (max-width: 668px) {
-  .card .firs_sec {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  .card .first__sec--top {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
-  .card .second_sec {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  .card .secofirst__sec--bottomnd {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 /*# sourceMappingURL=main.css.map */
