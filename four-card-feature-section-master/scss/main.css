@@ -81,8 +81,8 @@
 
 .card .col-1 {
   border-top: 3px solid #43d3d3;
-  -webkit-box-shadow: 0px 3px 12px 0px rgba(0, 70, 182, 0.418);
-          box-shadow: 0px 3px 12px 0px rgba(0, 70, 182, 0.418);
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 70, 182, 0.418);
+          box-shadow: 0px 0px 12px 0px rgba(0, 70, 182, 0.418);
 }
 
 .card .col-2-top {
@@ -120,5 +120,11 @@
 
 .attribution a {
   color: #3e52a3;
+}
+
+@media (min-width: 1440px) {
+  .para {
+    color: #8f1818;
+  }
 }
 /*# sourceMappingURL=main.css.map */

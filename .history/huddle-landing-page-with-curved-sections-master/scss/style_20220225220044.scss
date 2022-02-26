@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+// header=========
+header {
+  height: 100vh;
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    // text-align: center;
+  }
+}
+
+/* Footer  ===================*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

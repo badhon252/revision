@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header {
+  height: 100vh;
+}
+
+.header .header-content {
+  text-align: center;
+}
+
+.second-sec {
+  max-height: 100vh;
+}
+
+/* Footer  ===================*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
