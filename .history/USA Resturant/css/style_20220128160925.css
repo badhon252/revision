@@ -1,0 +1,380 @@
+@font-face {
+    font-family: newfont;
+    src: url('../font/BebasNeue Bold.ttf');
+}
+
+@font-face {
+    font-family: fontone;
+    src: url('../font/.ttf');
+}
+
+
+/* HEADER ========================================= */
+
+#header {
+    font-family: newfont;
+    background-color: #ffc045;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    color: rgb(66, 32, 11);
+}
+
+
+/* navbar =========== */
+
+#header .address {
+    font-size: .9rem;
+    font-weight: bold;
+    font-family: montserrat;
+    word-spacing: 2px;
+}
+
+#header .navbar {
+    z-index: 555;
+}
+
+#header .navbar li a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #3d2514;
+    letter-spacing: 4px;
+}
+
+
+/* header-content ======== */
+
+#header .header-content p {
+    font-size: 1.2rem;
+    border: 2px dashed black;
+}
+
+#header .header-content .package .img-fluid {
+    max-width: 100%;
+}
+
+#header .header-content .package {
+    position: relative;
+}
+
+
+/* #header .header-content .price h2 {
+    position: absolute;
+    z-index: 100;
+    bottom: -100px;
+    font-size: 2.7rem;
+    right: 475px;
+    background-color: rgb(223, 28, 28);
+    color: white;
+    border: 3px dashed rgb(255, 255, 255);
+    border-radius: 50%;
+    letter-spacing: 8px;
+} */
+
+#header .header-content .price span {
+    font-size: 1.4rem;
+}
+
+#header .header-content h1 {
+    font-size: 7vw;
+    font-weight: bolder;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 3px 3px 2px rgba(255, 255, 255, 0.7);
+}
+
+#header .header-content h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 3px 3px 2px rgba(255, 255, 255, 0.7);
+}
+
+#header .header-content .packages .package {
+    position: relative;
+    z-index: 10;
+}
+
+#header .header-content .packages .glow {
+    position: absolute;
+    top: 0;
+    right: -120px;
+    z-index: 1;
+    max-width: 80%;
+}
+
+
+/* 2nd section ================== */
+
+#suggestions .container {
+    font-family: newfont;
+    color: white;
+    font-size: 1.4rem;
+    line-height: 1;
+}
+
+#suggestions .container span {
+    font-size: 2.2rem;
+}
+
+#suggestions .container .s2-burger {
+    position: relative;
+}
+
+#suggestions .container .s2-burger div {
+    top: 20px;
+    left: 20px;
+    position: absolute;
+}
+
+#suggestions .container .s2-double-burger {
+    position: relative;
+    z-index: 222;
+}
+
+#suggestions .container .s2-double-burger div {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#suggestions .container .s2-pre-burger {
+    position: relative;
+    margin-top: 10px;
+}
+
+#suggestions .container .s2-pre-burger div {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+/* info ==========*/
+
+#suggestions .container .row {
+    font-family: newfont;
+}
+
+#suggestions .container .info {
+    color: #3d2514;
+}
+
+#suggestions .container .info h3 {
+    background-color: rgb(255, 192, 69);
+    border-radius: none;
+    margin: auto;
+    font-size: 1.5rem;
+    font-family: newfont;
+}
+
+#suggestions .container .info h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3rem;
+}
+
+#suggestions .container .info p {
+    font-size: 1rem;
+    font-family: none;
+    line-height: 1.5;
+}
+
+
+/* MENU=========  */
+
+#menu {
+    color: #3d2514;
+    font-family: newfont;
+}
+
+#menu .row .btn {
+    background-color: rgb(223, 28, 28);
+    color: white;
+    border-radius: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1rem;
+}
+
+#menu .row h4 {
+    font-size: 2rem;
+    font-family: newfont;
+    letter-spacing: 1px;
+}
+
+#menu .row p {
+    font-family: none;
+}
+
+
+/* #menu .row .img-fluid {
+    filter: drop-shadow(0 15px 8px 10px #000000);
+} */
+
+
+/* our story=================== */
+
+#our-story {
+    margin: 0 65px;
+    color: #3d2514;
+    box-shadow: 17px 29px 34px -2px rgba(0, 0, 0, 0.37);
+    -webkit-box-shadow: 17px 29px 34px -2px rgba(112, 112, 112, 0.37);
+    -moz-box-shadow: 17px 29px 34px -2px rgba(0, 0, 0, 0.37);
+}
+
+#our-story .row h4 {
+    font-weight: bold;
+    font-family: newfont;
+}
+
+#our-story .row h2 {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#our-story .row p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+
+/* contact us  */
+
+#contact-us {
+    /* background-image: url("../image/contact.png"); */
+    color: rgb(75, 20, 6);
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#contact-us h3 {
+    font-family: newfont;
+    font-size: 2rem;
+}
+
+#contact-us h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3rem;
+}
+
+#contact-us .form-control {
+    border: 1px solid rgba(0, 0, 0, .5);
+    font-family: newfont;
+}
+
+#contact-us .btn {
+    background-color: rgb(223, 28, 28);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1PX;
+}
+
+#contact-us .table-set {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+#contact-us .burger-french {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 0;
+}
+
+
+/* footer  */
+
+.footer {
+    margin-bottom: 50px;
+    color: white;
+    background-image: url("../image/footer image.png");
+    height: 81vh;
+    background-image: no-repeat;
+}
+
+.footer .row {
+    position: relative;
+}
+
+.footer .contact-info p {
+    font-family: newfont;
+    font-size: 1.2rem;
+}
+
+.footer h6 pt-5 {
+    font-family: newfont;
+    font-size: 1rem;
+    color: rgb(197, 197, 197);
+}
+
+.footer .social-icon {
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+}
+
+.footer .social-icon a i {
+    width: 36px;
+    height: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+
+/* responsive=========================== */
+
+@media (max-width:1032px) {
+    #header .header-content p {
+        font-size: 1rem;
+        border: none;
+    }
+    #header .header-content h1 {
+        max-height: 80%;
+        font-weight: bolder;
+        font-family: 'Alfa Slab One', cursive;
+        text-shadow: 3px 3px 2px rgba(255, 255, 255, 0.7);
+    }
+    #header .header-content h3 {
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Alfa Slab One', cursive;
+        text-shadow: 3px 3px 2px rgba(255, 255, 255, 0.7);
+    }
+    #header .header-content .packages .glow {
+        width: 0;
+    }
+}
+
+@media (max-width:991px) {
+    #header .header-content .packages .glow {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+    #header .navbar li a {
+        text-align: center;
+    }
+    #header .navbar li a:hover {
+        background-color: #ffd86d;
+    }
+}
+
+@media (max-width:768px) {
+    #our-story {
+        margin: 0;
+    }
+}
+
+@media (max-width:557px) {
+    #our-story {
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+    }
+    .footer {
+        background-image: repeat;
+    }
+    #header .navbar-nav .address .px-3 {
+        padding-left: 0;
+    }
+}

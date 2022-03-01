@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.param,
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* =================
+=================== */
+
+.header {
+  height: 87vh;
+}
+
+.header .navbar a {
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.header .header__content-content {
+  overflow: hidden;
+  margin: auto;
+}
+
+.header .header__content-content input {
+  padding-left: 15px;
+  padding-right: 100px;
+}
+
+.header .btn {
+  padding: 10px 50px;
+  background-color: #2f65f9;
+  color: white;
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.63);
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.63);
+}
+
+.header .header__content-img {
+  overflow: hidden;
+}
+
+.second__section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f9f8fe;
+  position: relative;
+  min-height: 77vh;
+}
+
+.second__section .container {
+  margin-top: 125px;
+}
+.bg_curve_desktop {
+  position: absolute;
+  top: -75px;
+  fill: #f9f8fe;
+  z-index: -1;
+}
+
+.links {
+  color: #54b4a1;
+  text-decoration: none;
+  border-bottom: 1px solid #54b4a1;
+}
+.card {
+  width: 62% !important;
+  border: none;
+}
+.card_header img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.card_header h6 {
+  font-size: 0.8rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+.card_header p {
+  font-size: 0.8rem;
+}
+
+.third_section {
+  background-color: #575989;
+}
+/* footer  =========
+===========*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}

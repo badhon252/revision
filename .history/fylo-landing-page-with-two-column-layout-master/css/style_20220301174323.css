@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  height: 87vh;
+}
+
+.header .navbar a {
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.header .header__content-content {
+  overflow: hidden;
+  margin: auto;
+}
+
+.header .header__content-content h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.header .header__content-content p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header .header__content-content input {
+  padding-left: 15px;
+  padding-right: 100px;
+}
+
+.header .btn {
+  padding: 10px 50px;
+  background-color: #2f65f9;
+  color: white;
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.63);
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.63);
+}
+
+.header .header__content-img {
+  overflow: hidden;
+}
+
+.second__section {
+  background-image: url("../images/bg-curve-desktop.svg");
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}

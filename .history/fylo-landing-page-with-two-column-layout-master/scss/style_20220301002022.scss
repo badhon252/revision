@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.header {
+  .navbar {
+    a {
+      font-size: 1.2rem;
+      color: black;
+      text-decoration: none;
+    }
+  }
+  .header__content-content {
+    margin: auto;
+  }
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
