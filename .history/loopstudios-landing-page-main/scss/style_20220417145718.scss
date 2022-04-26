@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+header {
+  background-image: url(../images/desktop/image-hero.jpg);
+  background-size: cover;
+
+  .header {
+    background-color: rgba(0, 0, 0, 0.377);
+    height: 100vh;
+    position: relative;
+    .nav-link {
+      color: #fff;
+      font-weight: 700;
+    }
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-content {
+    font-size: 5em;
+    font-weight: 300;
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+    // font-family: "Alata", sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+    line-height: 1;
+  }
+
+  //   .navbar-toggler {
+  //     position: absolute;
+  //     z-index: 111;
+  //     fill: #fff;
+  //     color: #fff;
+  //   }
+}
+
+.vr-card {
+  border: 1px solid black;
+  width: 70%;
+  .bg-info {
+    margin-left: -189px;
+    margin-top: 346px;
+  }
+}
+// Footer
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

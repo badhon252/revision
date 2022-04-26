@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// header=========
+.header {
+  height: 60vh;
+
+  .header-content {
+    text-align: center;
+  }
+}
+
+.second-sec {
+  // max-width: 100%;
+  max-height: 100vh;
+}
+
+/* Footer  ===================*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

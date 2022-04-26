@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+// header=========
+.header {
+  min-height: 60vh;
+
+  .header-content {
+    text-align: center;
+  }
+  .navbar-btn {
+    color: #fd63a9;
+    border-color: #fd63a9;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-size: 1.1rem;
+  }
+  .header-content-heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  }
+}
+
+/* Footer  ===================*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

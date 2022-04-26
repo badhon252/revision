@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+header {
+  background-image: url(../images/desktop/image-hero.jpg);
+  background-size: cover;
+}
+
+header .header {
+  background-color: rgba(0, 0, 0, 0.377);
+  height: 100vh;
+  position: relative;
+}
+
+header .header .nav-link {
+  color: #fff;
+  font-weight: 700;
+}
+
+header .navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+header .header-content .h1 {
+  color: #fff;
+  overflow: hidden;
+  border: 3px solid #fff;
+  width: 50%;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 5em;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.vr-sec {
+  position: relative;
+}
+
+.vr-sec .vr-card {
+  background-color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.vr-sec .h1,
+.vr-sec h1 {
+  font-size: 3rem;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.vr-sec p {
+  padding-top: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #767676;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+  font-weight: 300;
+}
+
+.our__creations .our__creations--header {
+  line-height: 1;
+  color: #000;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 4em;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.our__creations .btn {
+  letter-spacing: 6px;
+}
+
+.content-gallery .col-md-3 {
+  position: relative;
+}
+
+.content-gallery .col-md-3 img {
+  opacity: 1;
+}
+
+.content-gallery .col-md-3 h1 {
+  position: absolute;
+  z-index: 200;
+  top: 80%;
+  left: 18%;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.content-gallery .col-md-3:hover img {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.content-gallery .col-md-3:hover h1 {
+  color: black;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
+
+footer img {
+  cursor: pointer;
+}
+
+/*
+===============
+responsive===============
+==================
+*/
+@media (min-width: 1400px) {
+  .vr-card {
+    position: absolute;
+    width: 50%;
+    padding: 60px 100px 0 100px;
+    margin-left: 698px;
+    margin-top: -325px;
+  }
+}
+
+@media (max-width: 1399px) {
+  header .header-content .h1 {
+    width: 70%;
+  }
+  .vr-sec .vr-card {
+    display: block;
+    margin: auto;
+    padding: 50px 5px 0 5px;
+  }
+  .vr-sec .vr-card .h1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  header .header-content .h1 {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

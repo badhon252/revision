@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+// header=========
+.header {
+  min-height: 60vh;
+  .navbar-btn {
+    color: #fd63a9;
+    border-color: #fd63a9;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .header-content {
+    text-align: center;
+    .header-content-heading {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-size: 3rem;
+    }
+    .header-content-param {
+      font-family: "Open Sans", sans-serif;
+      max-width: 525px;
+      font-size: 1.1rem;
+    }
+    .header-content-btn {
+      padding: 20px 50px;
+      background-color: #fd53c0;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 39px;
+      font-size: 1.1rem;
+    }
+  }
+}
+
+/* Footer  ===================*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

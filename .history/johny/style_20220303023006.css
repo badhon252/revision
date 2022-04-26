@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-image: url(./image/Bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  border: 1px solid linear-gradient(to right white, black);
+}

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+header {
+  background-image: url(../images/desktop/image-hero.jpg);
+  background-size: cover;
+
+  .header {
+    background-color: rgba(0, 0, 0, 0.377);
+    height: 100vh;
+    position: relative;
+    .nav-link {
+      color: #fff;
+      font-weight: 700;
+    }
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .header-content .h1 {
+    font-size: 5em;
+    font-weight: 300;
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+    // font-family: "Alata", sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+    line-height: 1;
+    border: 3px solid #fff;
+    width: 50%;
+  }
+
+  //   .navbar-toggler {
+  //     position: absolute;
+  //     z-index: 111;
+  //     fill: #fff;
+  //     color: #fff;
+  //   }
+}
+// vr section =============
+.vr-sec {
+  position: relative;
+  .vr-card {
+    // border: 1px solid black;
+    background-color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .h1,
+  h1 {
+    font-size: 3rem;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+  p {
+    padding-top: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #767676;
+  }
+}
+// Footer
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-weight: 300;
+}
+
+// creations-header==========
+.creations-header {
+  // display: inline-block;
+  span {
+    font-size: 4rem;
+  }
+  button {
+    display: inline;
+  }
+}
+
+/*
+===============
+responsive===============
+==================
+*/
+@media (min-width: 1400px) {
+  .vr-card {
+    // border: 1px solid black;
+    position: absolute;
+    width: 50%;
+    padding: 60px 100px 0 100px;
+    margin-left: 698px;
+    margin-top: -325px;
+  }
+}
+@media (max-width: 1399px) {
+  header {
+    .header-content .h1 {
+      // font-size: 3em;
+      width: 70%;
+    }
+  }
+  .vr-sec {
+    .vr-card {
+      display: block;
+      margin: auto;
+      padding: 50px 5px 0 5px;
+      .h1 {
+        text-align: center;
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  header {
+    .header-content .h1 {
+      width: 80%;
+    }
+  }
+}

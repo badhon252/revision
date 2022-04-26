@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main {
+  background-image: url(./image/Bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.nav-item {
+  padding: 0px 20px;
+  border-image: linear-gradient(to right, #fff, #000);
+  /* border: 2px solid linear-gradient(to right white, black); */
+  border: 2px solid #fff;
+  margin: 11px;
+  border-radius: 32px;
+  background-color: #6c7379;
+  font-weight: 700;
+}
+@import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@900&display=swap");
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Smooch Sans", sans-serif;
+  letter-spacing: -3px;
+}
+
+p {
+  font-weight: 600;
+}
+
+.g-btn {
+  background-color: #344143;
+  color: white;
+  border-radius: 40px;
+  margin: 15px;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.link {
+  position: absolute;
+  bottom: 30px;
+  left: 260px;
+}
+
+.footer .qr {
+  position: absolute;
+  bottom: 30px;
+}
+.footer .f-btn {
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: #29abe2;
+}
+
+.navbar-toggler {
+  background-color: chartreuse;
+  fill: black;
+}

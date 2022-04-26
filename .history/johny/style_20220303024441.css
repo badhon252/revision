@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-image: url(./image/Bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.nav-item {
+  padding: 0px 20px;
+  /* border: 2px solid linear-gradient(to right white, black); */
+  border: 2px solid #fff;
+  margin: 11px;
+  border-radius: 32px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 900;
+}
