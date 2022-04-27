@@ -142,14 +142,10 @@ footer {
   img {
     cursor: pointer;
   }
-  .attribution {
-    a {
-      font-weight: bold;
-    }
-    .coder {
-      color: rgb(94, 255, 0);
-      text-decoration: underline;
-    }
+  .coder {
+    color: rgb(200, 255, 0);
+    text-decoration: none;
+    font-weight: bold;
   }
 }
 

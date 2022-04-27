@@ -40,9 +40,8 @@ header {
   color: #fff;
   font-weight: 700;
   &:hover {
-    transition: 0.5s;
-    text-decoration: underline;
-    //  text-decoration-color: rgb(255, 255, 255);
+    transition: 1s;
+    border-bottom: 4px solid #fff;
   }
 }
 // vr section =============
@@ -141,15 +140,6 @@ footer {
 
   img {
     cursor: pointer;
-  }
-  .attribution {
-    a {
-      font-weight: bold;
-    }
-    .coder {
-      color: rgb(94, 255, 0);
-      text-decoration: underline;
-    }
   }
 }
 

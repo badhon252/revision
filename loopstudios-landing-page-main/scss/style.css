@@ -11,17 +11,6 @@ header .header {
   position: relative;
 }
 
-header .header .nav-link {
-  color: #fff;
-  font-weight: 700;
-}
-
-header .header .nav-link:hover {
-  -webkit-transition: 1s;
-  transition: 1s;
-  border-bottom: 2px solid #fff;
-}
-
 header .navbar-dark .navbar-nav .nav-link {
   color: white;
 }
@@ -35,6 +24,17 @@ header .header-content .h1 {
   text-transform: uppercase;
   font-weight: 300;
   line-height: 1;
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: underline;
 }
 
 .vr-sec {
@@ -77,6 +77,10 @@ header .header-content .h1 {
   line-height: 1;
   color: #000;
   font-size: clamp(32px, 4vw, 48px);
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 1;
 }
 
 .our__creations .btn {
@@ -98,13 +102,11 @@ header .header-content .h1 {
   bottom: 7%;
   left: 15%;
   color: #fff;
-  font-size: clamp(2rem, 5vw, 2.5rem);
+  font-size: clamp(2rem, 4vw, 3rem);
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 300;
   line-height: 1;
-  font-family: "Alata", sans-serif;
-  font-weight: 400;
 }
 
 .content-gallery .col-md-3:hover img {
@@ -123,6 +125,15 @@ footer {
 
 footer img {
   cursor: pointer;
+}
+
+footer .attribution a {
+  font-weight: bold;
+}
+
+footer .attribution .coder {
+  color: #5eff00;
+  text-decoration: underline;
 }
 
 /*

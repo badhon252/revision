@@ -143,12 +143,10 @@ footer {
     cursor: pointer;
   }
   .attribution {
-    a {
-      font-weight: bold;
-    }
     .coder {
       color: rgb(94, 255, 0);
-      text-decoration: underline;
+      text-decoration: none;
+      font-weight: bold;
     }
   }
 }

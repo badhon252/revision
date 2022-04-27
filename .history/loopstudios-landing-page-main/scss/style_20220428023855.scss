@@ -16,6 +16,14 @@ header {
     background-color: rgba(0, 0, 0, 0.377);
     height: 100vh;
     position: relative;
+    .nav-link {
+      color: #fff;
+      font-weight: 700;
+      &:hover {
+        transition: 1s;
+        border-bottom: 2px solid #fff;
+      }
+    }
   }
   .navbar-dark .navbar-nav .nav-link {
     color: rgb(255, 255, 255);
@@ -35,15 +43,6 @@ header {
   //     fill: #fff;
   //     color: #fff;
   //   }
-}
-.nav-link {
-  color: #fff;
-  font-weight: 700;
-  &:hover {
-    transition: 0.5s;
-    text-decoration: underline;
-    //  text-decoration-color: rgb(255, 255, 255);
-  }
 }
 // vr section =============
 .vr-sec {
@@ -83,7 +82,7 @@ header {
     line-height: 1;
     color: #000;
     font-size: clamp(32px, 4vw, 48px);
-    @include header-text;
+    // @include header-text();
   }
   .btn {
     letter-spacing: 6px;
@@ -117,7 +116,7 @@ header {
       bottom: 7%;
       left: 15%;
       color: #fff;
-      font-size: clamp(2rem, 4vw, 3rem);
+      font-size: clamp(2rem, 5vw, 2.5rem);
       @include header-text;
     }
 
@@ -141,15 +140,6 @@ footer {
 
   img {
     cursor: pointer;
-  }
-  .attribution {
-    a {
-      font-weight: bold;
-    }
-    .coder {
-      color: rgb(94, 255, 0);
-      text-decoration: underline;
-    }
   }
 }
 

@@ -42,7 +42,7 @@ header {
   &:hover {
     transition: 0.5s;
     text-decoration: underline;
-    //  text-decoration-color: rgb(255, 255, 255);
+    text-decoration-color: rgb(159, 255, 34);
   }
 }
 // vr section =============
@@ -141,15 +141,6 @@ footer {
 
   img {
     cursor: pointer;
-  }
-  .attribution {
-    a {
-      font-weight: bold;
-    }
-    .coder {
-      color: rgb(94, 255, 0);
-      text-decoration: underline;
-    }
   }
 }
 
