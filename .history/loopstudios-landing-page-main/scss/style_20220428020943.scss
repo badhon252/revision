@@ -19,10 +19,6 @@ header {
     .nav-link {
       color: #fff;
       font-weight: 700;
-      &:hover {
-        transition: 1s;
-        border-bottom: 2px solid #fff;
-      }
     }
   }
   .navbar-dark .navbar-nav .nav-link {
@@ -32,9 +28,9 @@ header {
     color: #fff;
     overflow: hidden;
     border: 3px solid rgb(255, 255, 255);
-
-    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-size: clamp(1.5rem, 5vw, 5rem);
     @include header-text;
+    word-break: break-all;
   }
 
   //   .navbar-toggler {

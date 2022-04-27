@@ -19,21 +19,18 @@ header {
     .nav-link {
       color: #fff;
       font-weight: 700;
-      &:hover {
-        transition: 1s;
-        border-bottom: 2px solid #fff;
-      }
     }
   }
   .navbar-dark .navbar-nav .nav-link {
     color: rgb(255, 255, 255);
   }
   .header-content .h1 {
+    // font-family: "Alata", sans-serif;
     color: #fff;
     overflow: hidden;
     border: 3px solid rgb(255, 255, 255);
-
-    font-size: clamp(2.5rem, 5vw, 5rem);
+    width: 50%;
+    font-size: clamp(2rem, 5vw, 5rem);
     @include header-text;
   }
 
@@ -116,10 +113,7 @@ header {
       bottom: 7%;
       left: 15%;
       color: #fff;
-      font-size: clamp(2rem, 5vw, 2.5rem);
-      @include header-text;
-      font-family: "Alata", sans-serif;
-      font-weight: 400;
+      // @include header-text(2.5em);
     }
 
     &:hover {
@@ -161,6 +155,12 @@ responsive===============
   }
 }
 @media (max-width: 1399px) {
+  // header {
+  // .header-content .h1 {
+  // font-size: 3em;
+  //   width: 70%;
+  // }
+  // }
   .vr-sec {
     .vr-card {
       display: block;
@@ -171,4 +171,16 @@ responsive===============
       }
     }
   }
+}
+@media (max-width: 991px) {
+  // header {
+  //   .header-content .h1 {
+  //     width: 80%;
+  //   }
+  // }
+  // .gallery-img {
+  //   h1 {
+  //     font-size: 1rem;
+  //   }
+  // }
 }

@@ -2,9 +2,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
 
-@mixin header-text {
+@mixin header-text($fontSize) {
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
+  font-size: $fontSize;
   font-weight: 300;
   line-height: 1;
 }
@@ -19,22 +20,18 @@ header {
     .nav-link {
       color: #fff;
       font-weight: 700;
-      &:hover {
-        transition: 1s;
-        border-bottom: 2px solid #fff;
-      }
     }
   }
   .navbar-dark .navbar-nav .nav-link {
     color: rgb(255, 255, 255);
   }
   .header-content .h1 {
+    // font-family: "Alata", sans-serif;
     color: #fff;
     overflow: hidden;
-    border: 3px solid rgb(255, 255, 255);
-
-    font-size: clamp(2.5rem, 5vw, 5rem);
-    @include header-text;
+    border: 3px solid #fff;
+    width: 50%;
+    @include header-text(5em);
   }
 
   //   .navbar-toggler {
@@ -52,11 +49,11 @@ header {
     background-color: #fff;
     font-family: "Josefin Sans", sans-serif;
   }
+  .h1,
   h1 {
-    font-size: clamp(2rem, 5vw, 3rem);
+    font-size: 3rem;
     line-height: 1;
     text-transform: uppercase;
-    @include header-text;
   }
   p {
     padding-top: 30px;
@@ -81,8 +78,7 @@ header {
   .our__creations--header {
     line-height: 1;
     color: #000;
-    font-size: clamp(32px, 4vw, 48px);
-    // @include header-text();
+    @include header-text(4em);
   }
   .btn {
     letter-spacing: 6px;
@@ -113,13 +109,10 @@ header {
     h1 {
       position: absolute;
       z-index: 200;
-      bottom: 7%;
-      left: 15%;
+      top: 70%;
+      left: 18%;
       color: #fff;
-      font-size: clamp(2rem, 5vw, 2.5rem);
-      @include header-text;
-      font-family: "Alata", sans-serif;
-      font-weight: 400;
+      @include header-text(2.5em);
     }
 
     &:hover {
@@ -161,6 +154,12 @@ responsive===============
   }
 }
 @media (max-width: 1399px) {
+  header {
+    .header-content .h1 {
+      // font-size: 3em;
+      width: 70%;
+    }
+  }
   .vr-sec {
     .vr-card {
       display: block;
@@ -170,5 +169,15 @@ responsive===============
         text-align: center;
       }
     }
+  }
+}
+@media (max-width: 991px) {
+  header {
+    .header-content .h1 {
+      width: 80%;
+    }
+  }
+  .col-md-3 {
+    font-size: 1rem;
   }
 }
