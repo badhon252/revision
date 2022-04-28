@@ -112,6 +112,8 @@ header .header-content .h1 {
 .content-gallery .col-md-3:hover img {
   opacity: 0.3;
   cursor: pointer;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 
 .content-gallery .col-md-3:hover h1 {
