@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2e9e2;
+}
+.card {
+  background-color: #fff;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  max-width: 4rem;
+}
+/* Footer  */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -32,6 +32,6 @@ let newObject = {
 };
 console.log(newObject.myInfo);
 
-// newObject = {
-//   phone: "01706107019",
-// };
+newObject = {
+  phone: "01706107019",
+};

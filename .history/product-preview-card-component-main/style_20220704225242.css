@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 97vh;
+  width: 100vw;
+  background-color: #f2e9e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #fff;
+  color: black;
+  display: flex;
+  /* justify-content: space-between; */
+  width: 47rem;
+  height: 35rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+img {
+  max-height: 100%;
+  max-width: auto;
+  /* background-image: url("./images/image-product-desktop.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat; */
+}
+.content-info .info {
+  padding: 40px;
+}
+h3 {
+  color: #908d94;
+  padding: 10px 0;
+}
+h1 {
+  padding: 15px 0;
+}
+p {
+  padding: 25px 0;
+}
+.price--current {
+  color: #46806a;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.price--old {
+  text-decoration-line: line-through;
+  font-size: 1.5rem;
+}
+.btn {
+  background-color: #46806a;
+  padding: 15px 25px;
+  color: #fff;
+}
+/* Footer  */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
