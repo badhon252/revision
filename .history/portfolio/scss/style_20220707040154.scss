@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+Header {
+  height: 100vh;
+  background-color: #2d2e32;
+  padding: 2rem 10rem;
+  color: #fff;
+
+  nav {
+    display: flex;
+
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.7rem;
+      color: rgb(0, 255, 64);
+      text-decoration: none;
+      padding-right: 3rem;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .link-item {
+        text-decoration: none;
+        color: #fff;
+        margin: 10px;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .primary {
+        display: flex;
+        align-items: center;
+        color: aqua;
+      }
+
+      .social {
+        display: flex;
+        justify-self: end;
+      }
+    }
+  }
+}

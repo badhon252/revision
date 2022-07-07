@@ -138,9 +138,11 @@ main {
   font-size: 2.5rem;
 }
 
-.img-main .overlay p {
+.img-main .overlay a {
   padding: 15px;
   font-weight: 500;
+  color: #fff;
+  text-decoration: underline;
 }
 
 .effect {

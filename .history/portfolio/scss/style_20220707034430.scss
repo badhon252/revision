@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+Header {
+  height: 100vh;
+  background-color: #2d2e32;
+  padding: 2rem 10rem;
+  color: #fff;
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+
+    .link-item {
+      text-decoration: none;
+      color: #fff;
+      margin: 10px;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .social {
+      justify-content: end;
+    }
+  }
+}
