@@ -10,7 +10,7 @@
 }
 
 Header {
-  height: 100vh;
+  height: 110vh;
   background-color: #2d2e32;
   padding: 3rem 10rem;
   color: #fff;
@@ -24,6 +24,7 @@ Header nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-weight: 500;
+  margin: 1.5rem 0;
   width: 100%;
 }
 
@@ -54,7 +55,12 @@ Header nav .link-item {
   font-family: "Roboto Mono", monospace;
 }
 
-Header nav .link-item:hover {
+Header nav .link-item--p {
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+Header nav .link-item--p:hover {
   text-decoration: overline;
   color: #00ff40;
 }
@@ -81,12 +87,16 @@ Header nav .social img {
   margin-bottom: -8px;
 }
 
+Header nav:hover {
+  text-decoration: none;
+}
+
 Header nav .social .link-item {
   color: #afafaf;
 }
 
 Header .content {
-  padding: 3rem 0;
+  padding: 1rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,18 +104,101 @@ Header .content {
 }
 
 Header .content .content-text {
+  margin: 0 200px;
   width: 50%;
+  padding: 3rem 0;
+}
+
+Header .content .content-text h2 {
+  padding: 3rem 0;
+}
+
+Header .content .content-text .title {
+  background-color: #cc264a;
+  color: #ffffff;
+  display: inline-block;
+  margin: 2rem 0;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+Header .content .content-text .quote {
+  padding: 2rem 0;
+  font-size: 3.5rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+Header .content .content-text p {
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  color: #afafaf;
+  padding: 1.6rem 0;
+}
+
+Header .content .content-text .btn {
+  color: #1eff00;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 3.5rem 0 2.5rem 0;
+  display: block;
 }
 
 Header .content .content-image {
-  background-image: url("../image/badhon-removebg-preview.png");
-  width: 100%;
+  width: 500px;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-items: end;
-  background-repeat: no-repeat;
-  border: 2px solid yellow;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+Header .content .content-image img {
+  max-width: 600px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+Header .content .expertise {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -200px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 2rem 0;
+  padding: 0 100px;
+}
+
+Header .content .expertise h1 {
+  padding: 15px;
+  font-size: 3rem;
+}
+
+Header .content .expertise h6 {
+  font-size: 1rem;
+  color: rgba(240, 248, 255, 0.514);
+}
+
+Header .content .expertise .experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+Header .content .expertise .projects-completed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
