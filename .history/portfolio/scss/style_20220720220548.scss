@@ -11,15 +11,14 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
-  font-family: "Courier New", Courier, monospace;
 }
 .container {
   padding: 4rem 10rem;
 }
 Header {
-  // max-height: 100vh;
+  max-height: 100vh;
   // background-color: #2d2e32;
-  overflow: hidden;
+
   // color: #fff;
 
   nav {
@@ -35,7 +34,7 @@ Header {
       color: rgb(24, 22, 22);
       text-decoration: none;
       padding-right: 3rem;
-      font-family: "Satisfy", cursive !important;
+      font-family: "Satisfy", cursive;
     }
 
     .primary {
@@ -212,7 +211,7 @@ Header {
 // 2nd-Section============
 
 .services {
-  height: 100vh;
+  max-height: 100vh;
   background-color: #25262a;
   color: #fff;
   font-family: "Courier New", Courier, monospace;
@@ -225,13 +224,11 @@ Header {
     h1 {
       display: flex;
       font-size: 2rem;
-      font-weight: 500;
     }
 
     p {
       // padding: 1rem 0;
       color: #bbbcbeb4;
-      padding-top: 10px;
     }
     a {
       padding: 2rem 0;
@@ -256,26 +253,17 @@ Header {
         }
         a {
           text-decoration: underline;
-          text-transform: capitalize;
-        }
-        i {
-          color: #33ff00;
         }
       }
     }
-    .design--heading,
-    .frontend--heading,
-    .seo--heading {
-      display: flex;
-      align-items: center;
-      i {
-        padding: 0 10px;
-        font-size: 1.2rem;
-        display: block;
-        margin: auto 0 auto auto;
-      }
+    .design {
     }
-
+    .frontend {
+      // background-color: #2d2e32;
+    }
+    .seo {
+      // background-color: #2d2e32;
+    }
     .category,
     .service-info {
       margin: 2rem 5rem;
@@ -289,18 +277,13 @@ Header {
       h1 {
         font-size: 3rem;
         padding: 2rem 0;
-        font-weight: 500;
       }
       h4 {
-        font-size: 1.8rem;
+        font-size: 2rem;
         font-style: italic;
         font-weight: 500;
         line-height: 1.5;
         padding: 2rem 0;
-      }
-      p {
-        font-size: 1rem;
-        line-height: 2;
       }
     }
   }

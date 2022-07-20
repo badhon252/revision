@@ -7,10 +7,15 @@
           box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  padding: 4rem 10rem;
 }
 
 Header {
-  padding: 3rem 10rem;
+  overflow: hidden;
 }
 
 Header nav {
@@ -21,7 +26,7 @@ Header nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-weight: 500;
-  margin: 1.5rem 0;
+  margin: 0.5rem 0;
   width: 100%;
 }
 
@@ -30,7 +35,7 @@ Header nav .navbar-brand {
   color: #181616;
   text-decoration: none;
   padding-right: 3rem;
-  font-family: "Satisfy", cursive;
+  font-family: "Satisfy", cursive !important;
 }
 
 Header nav .primary {
@@ -209,5 +214,129 @@ Header .content .expertise .projects-completed {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.services {
+  height: 100vh;
+  background-color: #25262a;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.services .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.services .row .col-md-6 {
+  width: 50%;
+}
+
+.services .row h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.services .row p {
+  color: #bbbcbeb4;
+  padding-top: 10px;
+}
+
+.services .row a {
+  padding: 2rem 0;
+  color: #fff;
+  display: inline-block;
+}
+
+.services .row .design,
+.services .row .frontend,
+.services .row .seo {
+  background-color: #2d2e32;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 1.5rem 4rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+
+.services .row .design:hover,
+.services .row .frontend:hover,
+.services .row .seo:hover {
+  -webkit-box-shadow: 0px 4px 34px -10px #312f31;
+          box-shadow: 0px 4px 34px -10px #312f31;
+}
+
+.services .row .design:hover h1,
+.services .row .frontend:hover h1,
+.services .row .seo:hover h1 {
+  color: #33ff00;
+}
+
+.services .row .design:hover a,
+.services .row .frontend:hover a,
+.services .row .seo:hover a {
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+.services .row .design:hover i,
+.services .row .frontend:hover i,
+.services .row .seo:hover i {
+  color: #33ff00;
+}
+
+.services .row .design--heading,
+.services .row .frontend--heading,
+.services .row .seo--heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services .row .design--heading i,
+.services .row .frontend--heading i,
+.services .row .seo--heading i {
+  padding: 0 10px;
+  font-size: 1.2rem;
+  display: block;
+  margin: auto 0 auto auto;
+}
+
+.services .row .category,
+.services .row .service-info {
+  margin: 2rem 5rem;
+}
+
+.services .row .service-info h6 {
+  font-size: 1rem;
+  padding: 10px 0;
+  color: #bbbcbeb4;
+}
+
+.services .row .service-info h1 {
+  font-size: 3rem;
+  padding: 2rem 0;
+  font-weight: 500;
+}
+
+.services .row .service-info h4 {
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 2rem 0;
+}
+
+.services .row .service-info p {
+  font-size: 1rem;
+  line-height: 2;
 }
 /*# sourceMappingURL=style.css.map */

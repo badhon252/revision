@@ -35,7 +35,7 @@ Header {
       color: rgb(24, 22, 22);
       text-decoration: none;
       padding-right: 3rem;
-      font-family: "Satisfy", cursive !important;
+      font-family: "Satisfy", cursive;
     }
 
     .primary {
@@ -231,7 +231,6 @@ Header {
     p {
       // padding: 1rem 0;
       color: #bbbcbeb4;
-      padding-top: 10px;
     }
     a {
       padding: 2rem 0;
@@ -270,7 +269,7 @@ Header {
       align-items: center;
       i {
         padding: 0 10px;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         display: block;
         margin: auto 0 auto auto;
       }
