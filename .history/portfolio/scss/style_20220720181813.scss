@@ -66,22 +66,10 @@ Header {
         margin: 0 10px;
         font-size: 14px;
       }
-      // .linkedin {
-      //   mask: url(../image/icon/linkedin-brands.svg) no-repeat center;
-      //   background-color: rgb(0, 153, 255);
-      //   width: 20px;
-      //   height: auto;
-      // }
-      // .github {
-      //   mask: url("../image/icon/github-brands.svg") no-repeat center;
-      //   background-color: red;
-      // }
-      // .MailBox {
-      //   mask: url("../image/icon/envelope-circle-check-solid.svg") no-repeat
-      //     center;
-      //   background-color: #2cda00;
-      // }
-
+      .linkedin {
+        mask: url(../image/icon/github-brands.svg) no-repeat center;
+        background-color: red;
+      }
       img {
         width: 20px;
         height: auto;
@@ -104,7 +92,6 @@ Header {
     padding: 1rem 0;
     display: flex;
     overflow: hidden;
-    justify-content: space-between;
 
     .content-text {
       margin: 0 200px;
@@ -141,7 +128,7 @@ Header {
         text-decoration: underline;
         font-size: 1.5rem;
         font-weight: 700;
-        padding: 1rem 0 2.5rem 0;
+        padding: 3.5rem 0 2.5rem 0;
         display: block;
       }
     }
@@ -150,9 +137,9 @@ Header {
       // background-image: url("../image/badhon-removebg-preview.png");
       width: 500px;
       height: auto;
-      // display: flex;
+      display: flex;
       // justify-items: end;
-      // justify-content: end;
+      justify-content: end;
       box-sizing: border-box;
       // background-repeat: no-repeat;
       // background-size: cover;
@@ -176,7 +163,7 @@ Header {
       justify-content: space-between;
       // margin: 0 -200px;
       font-family: "Courier New", Courier, monospace;
-      padding-top: 2rem;
+      padding-top: 4rem;
       // padding: 0 100px;
       h1 {
         padding: 15px;

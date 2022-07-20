@@ -95,6 +95,9 @@ Header .content {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 Header .content .content-text {
@@ -134,19 +137,13 @@ Header .content .content-text .btn {
   text-decoration: underline;
   font-size: 1.5rem;
   font-weight: 700;
-  padding: 3.5rem 0 2.5rem 0;
+  padding: 1rem 0 2.5rem 0;
   display: block;
 }
 
 Header .content .content-image {
   width: 500px;
   height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -177,7 +174,7 @@ Header .content .expertise {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-family: "Courier New", Courier, monospace;
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
 Header .content .expertise h1 {
