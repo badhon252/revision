@@ -10,10 +10,7 @@
 }
 
 Header {
-  height: 110vh;
-  background-color: #2d2e32;
   padding: 3rem 10rem;
-  color: #fff;
 }
 
 Header nav {
@@ -30,7 +27,7 @@ Header nav {
 
 Header nav .navbar-brand {
   font-size: 3rem;
-  color: white;
+  color: #181616;
   text-decoration: none;
   padding-right: 3rem;
   font-family: "Satisfy", cursive;
@@ -50,7 +47,7 @@ Header nav .primary {
 
 Header nav .link-item {
   font-weight: 500;
-  color: #fff;
+  color: black;
   margin: 10px;
   font-family: "Roboto Mono", monospace;
 }
@@ -62,7 +59,7 @@ Header nav .link-item--p {
 
 Header nav .link-item--p:hover {
   text-decoration: overline;
-  color: #00ff40;
+  color: #2cda00;
 }
 
 Header nav .social {
@@ -79,20 +76,17 @@ Header nav .social {
 
 Header nav .social li {
   margin: 0 10px;
+  font-size: 14px;
 }
 
 Header nav .social img {
-  width: 25px;
+  width: 20px;
   height: auto;
   margin-bottom: -8px;
 }
 
 Header nav:hover {
   text-decoration: none;
-}
-
-Header nav .social .link-item {
-  color: #afafaf;
 }
 
 Header .content {
@@ -114,8 +108,8 @@ Header .content .content-text h2 {
 }
 
 Header .content .content-text .title {
-  background-color: #cc264a;
-  color: #ffffff;
+  background-color: #33ff00;
+  border: 1px solid black;
   display: inline-block;
   margin: 2rem 0;
   padding: 7px;
@@ -131,12 +125,12 @@ Header .content .content-text .quote {
 Header .content .content-text p {
   font-size: 1rem;
   font-family: "Courier New", Courier, monospace;
-  color: #afafaf;
+  color: rgba(0, 0, 0, 0.548);
   padding: 1.6rem 0;
 }
 
 Header .content .content-text .btn {
-  color: #1eff00;
+  color: #ec0000;
   text-decoration: underline;
   font-size: 1.5rem;
   font-weight: 700;
@@ -153,6 +147,8 @@ Header .content .content-image {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 Header .content .content-image img {
@@ -160,26 +156,40 @@ Header .content .content-image img {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  border: 4px solid black;
+  border-radius: 5px;
+  -webkit-transition: ease-in 0.4s;
+  transition: ease-in 0.4s;
+  background-color: #f1f1f1f6;
+}
+
+Header .content .content-image img:hover {
+  margin: 10px 10px -10px -10px;
+  -webkit-box-shadow: 7px -6px 0px -1px rgba(0, 0, 0, 0.76);
+          box-shadow: 7px -6px 0px -1px rgba(0, 0, 0, 0.76);
 }
 
 Header .content .expertise {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 -200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   font-family: "Courier New", Courier, monospace;
-  padding: 2rem 0;
-  padding: 0 100px;
+  padding-top: 4rem;
 }
 
 Header .content .expertise h1 {
   padding: 15px;
-  font-size: 3rem;
+  font-size: 4rem;
+  padding-left: 0px;
 }
 
 Header .content .expertise h6 {
   font-size: 1rem;
-  color: rgba(240, 248, 255, 0.514);
+  color: rgba(0, 0, 0, 0.548);
+  font-weight: 500;
 }
 
 Header .content .expertise .experience {
@@ -189,7 +199,7 @@ Header .content .expertise .experience {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1rem;
+  padding: 2rem 0;
 }
 
 Header .content .expertise .projects-completed {
@@ -199,6 +209,8 @@ Header .content .expertise .projects-completed {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

@@ -14,10 +14,10 @@
 }
 
 Header {
-  // height: 120vh;
-  // background-color: #2d2e32;
+  height: 110vh;
+  background-color: #2d2e32;
   padding: 3rem 10rem;
-  // color: #fff;
+  color: #fff;
 
   nav {
     display: flex;
@@ -29,7 +29,7 @@ Header {
     .navbar-brand {
       // font-weight: 900;
       font-size: 3rem;
-      color: rgb(24, 22, 22);
+      color: rgb(255, 255, 255);
       text-decoration: none;
       padding-right: 3rem;
       font-family: "Satisfy", cursive;
@@ -43,7 +43,7 @@ Header {
 
     .link-item {
       font-weight: 500;
-      color: rgb(0, 0, 0);
+      color: #fff;
       margin: 10px;
       font-family: "Roboto Mono", monospace;
     }
@@ -52,7 +52,7 @@ Header {
       &:hover {
         // font-style: italic;
         text-decoration: overline;
-        color: #2cda00;
+        color: #00ff40;
       }
     }
     .social {
@@ -64,10 +64,9 @@ Header {
 
       li {
         margin: 0 10px;
-        font-size: 14px;
       }
       img {
-        width: 20px;
+        width: 25px;
         height: auto;
         margin-bottom: -8px;
       }
@@ -79,10 +78,9 @@ Header {
       text-decoration: none;
     }
     .social .link-item {
-      // color: rgb(175, 175, 175);
+      color: rgb(175, 175, 175);
     }
   }
-
   // CONTENT =================
   .content {
     padding: 1rem 0;
@@ -99,9 +97,8 @@ Header {
         padding: 3rem 0;
       }
       .title {
-        background-color: #33ff00;
-        border: 1px solid black;
-        // color: #ffffff;
+        background-color: #cc264a;
+        color: #ffffff;
         display: inline-block;
         margin: 2rem 0;
         padding: 7px;
@@ -115,12 +112,11 @@ Header {
       p {
         font-size: 1rem;
         font-family: "Courier New", Courier, monospace;
-        // color: rgb(175, 175, 175);
-        color: rgba(0, 0, 0, 0.548);
+        color: rgb(175, 175, 175);
         padding: 1.6rem 0;
       }
       .btn {
-        color: rgb(236, 0, 0);
+        color: rgb(30, 255, 0);
         text-decoration: underline;
         font-size: 1.5rem;
         font-weight: 700;
@@ -136,54 +132,40 @@ Header {
       display: flex;
       // justify-items: end;
       justify-content: end;
-      box-sizing: border-box;
+
       // background-repeat: no-repeat;
       // background-size: cover;
       // flex-shrink: 4;
-
+      // border: 2px solid yellow;
       img {
         max-width: 600px;
         height: fit-content;
-        border: 4px solid rgb(0, 0, 0);
-        border-radius: 5px;
-        transition: ease-in 0.4s;
-        background-color: #f1f1f1f6;
-        &:hover {
-          margin: 10px 10px -10px -10px;
-          box-shadow: 7px -6px 0px -1px rgba(0, 0, 0, 0.76);
-        }
       }
     }
     .expertise {
       display: flex;
-      justify-content: space-between;
-      // margin: 0 -200px;
+      margin: 0 -200px;
       font-family: "Courier New", Courier, monospace;
-      padding-top: 4rem;
-      // padding: 0 100px;
+      padding: 2rem 0;
+      padding: 100px 0;
       h1 {
         padding: 15px;
-        font-size: 4rem;
-        padding-left: 0px;
+        font-size: 3rem;
       }
       h6 {
         font-size: 1rem;
-        // color: rgba(240, 248, 255, 0.514);
-        color: rgba(0, 0, 0, 0.548);
+        color: rgba(240, 248, 255, 0.514);
         font-weight: 500;
       }
       .experience {
         display: flex;
         align-items: center;
-        padding: 2rem 0;
-        // padding-left: 0px;
+        padding: 1rem;
       }
       .projects-completed {
         display: flex;
         align-items: center;
-        justify-content: center;
-        // padding: 1rem;
-        // padding-left: 0px;
+        padding: 1rem;
       }
     }
   }
