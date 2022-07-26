@@ -15,7 +15,9 @@
 }
 
 Header {
+  background-color: #2d2e32;
   overflow: hidden;
+  color: #fff;
 }
 
 Header nav {
@@ -32,9 +34,13 @@ Header nav {
 
 Header nav .navbar-brand {
   font-size: 3rem;
-  color: #181616;
+  color: white;
   text-decoration: none;
   padding-right: 3rem;
+  font-family: "Satisfy", cursive !important;
+}
+
+Header nav .navbar-brand b {
   font-family: "Satisfy", cursive !important;
 }
 
@@ -52,7 +58,7 @@ Header nav .primary {
 
 Header nav .link-item {
   font-weight: 500;
-  color: black;
+  color: white;
   margin: 10px;
   font-family: "Roboto Mono", monospace;
 }
@@ -64,7 +70,7 @@ Header nav .link-item--p {
 
 Header nav .link-item--p:hover {
   text-decoration: overline;
-  color: #2cda00;
+  color: #35fd04;
 }
 
 Header nav .social {
@@ -94,6 +100,10 @@ Header nav:hover {
   text-decoration: none;
 }
 
+Header nav .social .link-item {
+  color: #afafaf;
+}
+
 Header .content {
   padding: 1rem 0;
   display: -webkit-box;
@@ -118,6 +128,7 @@ Header .content .content-text h2 {
 Header .content .content-text .title {
   background-color: #33ff00;
   border: 1px solid black;
+  color: #000000;
   display: inline-block;
   margin: 2rem 0;
   padding: 7px;
@@ -133,7 +144,7 @@ Header .content .content-text .quote {
 Header .content .content-text p {
   font-size: 1rem;
   font-family: "Courier New", Courier, monospace;
-  color: rgba(0, 0, 0, 0.548);
+  color: rgba(255, 255, 255, 0.548);
   padding: 1.6rem 0;
 }
 
@@ -158,11 +169,11 @@ Header .content .content-image img {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  border: 4px solid black;
+  border: 1px solid black;
   border-radius: 5px;
   -webkit-transition: ease-in 0.4s;
   transition: ease-in 0.4s;
-  background-color: #f1f1f1f6;
+  background-color: #313438;
 }
 
 Header .content .content-image img:hover {
@@ -190,7 +201,7 @@ Header .content .expertise h1 {
 
 Header .content .expertise h6 {
   font-size: 1rem;
-  color: rgba(0, 0, 0, 0.548);
+  color: rgba(255, 255, 255, 0.548);
   font-weight: 500;
 }
 

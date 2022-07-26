@@ -58,7 +58,7 @@ Header {
       &:hover {
         // font-style: italic;
         text-decoration: overline;
-        color: #35fd04;
+        color: #2cda00;
       }
     }
     .social {
@@ -123,8 +123,8 @@ Header {
       }
       .title {
         background-color: #33ff00;
-        border: 1px solid rgb(0, 0, 0);
-        color: #000000;
+        border: 1px solid rgb(255, 255, 255);
+        // color: #ffffff;
         display: inline-block;
         margin: 2rem 0;
         padding: 7px;
@@ -170,7 +170,7 @@ Header {
         border: 1px solid rgb(0, 0, 0);
         border-radius: 5px;
         transition: ease-in 0.4s;
-        background-color: #313438;
+        background-color: #003865;
         &:hover {
           margin: 10px 10px -10px -10px;
           box-shadow: 7px -6px 0px -1px rgba(0, 0, 0, 0.76);
