@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  //   max-height: 100vh;
+  background-color: #141519;
+}
+.card {
+  height: 25rem;
+  width: 25rem;
+  color: #fff;
+}
+.review {
+  max-height: 100vh;
+  padding: 100px;
+  .card {
+    background-color: #212832;
+    li {
+      list-style-type: none;
+      display: flex;
+    }
+  }
+}

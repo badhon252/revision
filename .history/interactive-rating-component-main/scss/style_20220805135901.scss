@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  //   max-height: 100vh;
+  background-color: #141519;
+}
+.card {
+  height: 25rem;
+  width: 25rem;
+  color: #fff;
+}
+.review {
+  max-height: 100vh;
+  padding: 100px;
+  .card {
+    background-color: #212832;
+    padding: 2rem;
+    ul {
+      display: flex;
+
+      li {
+        background-color: #262f38;
+        list-style-type: none;
+        border-radius: 50%;
+        padding: 1rem;
+        margin: 1rem;
+      }
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px;
+      background-color: #fc7613;
+    }
+  }
+}

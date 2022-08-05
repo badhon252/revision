@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  .review,
+  .result {
+    max-height: 100vh;
+    background-color: #141519;
+  }
+}
