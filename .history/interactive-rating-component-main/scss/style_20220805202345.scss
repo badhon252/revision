@@ -53,14 +53,13 @@ p {
     ul {
       display: flex;
       margin: 1.3rem 0;
-      justify-content: space-between;
 
       li {
         background-color: #2d3842;
         list-style-type: none;
         border-radius: 30px;
         padding: 0.8rem 1.1rem;
-        margin: 1rem 0;
+        margin: 1rem 0.7rem;
         color: #7a828d;
         cursor: pointer;
         &:hover {
@@ -100,7 +99,7 @@ p {
     .rating {
       padding: 7px 20px;
       background-color: #25333e;
-      border-radius: 20px;
+      border-radius: 15px;
       display: inline-block;
       margin: 1.5rem;
       color: #fc7613;
