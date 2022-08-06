@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#header {
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    ul {
+      display: flex;
+      padding: 0 3rem;
+
+      .nav-items .nav-links {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// footer====
+// ===============
+// ==========
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
