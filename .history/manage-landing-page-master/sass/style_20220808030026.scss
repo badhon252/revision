@@ -223,15 +223,13 @@ footer {
   }
   p {
     padding-top: 6rem;
-    padding-left: 1rem;
     color: rgba(255, 255, 255, 0.404);
   }
   // img {
   //   fill: #fff;
   // }
   h6 {
-    color: rgb(219, 61, 61);
-    font-style: italic;
+    color: rgb(248, 35, 35);
   }
   .icons {
     padding: 6rem 0;
@@ -242,7 +240,7 @@ footer {
     }
     .fa-facebook-f {
       &:hover {
-        color: rgb(154, 154, 255);
+        color: rgb(61, 61, 255);
       }
     }
     .fa-youtube {
