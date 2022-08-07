@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+header {
+  .navbar {
+    display: flex;
+    padding: 4rem 10rem;
+    .navs {
+      display: flex;
+      margin: 0 2rem;
+      .nav-item {
+        margin: 0 1rem;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
+
+// footer======
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

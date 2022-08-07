@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+header {
+  .navbar {
+    display: flex;
+    .navs {
+      display: flex;
+    }
+  }
+}
+
+// footer======
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
