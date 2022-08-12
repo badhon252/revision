@@ -97,6 +97,7 @@ header {
 
   .header-content {
     padding: 2rem 13rem;
+
     h1 {
       padding-top: 4rem;
       font-size: 4rem;
@@ -113,7 +114,7 @@ header {
   }
 }
 #info {
-  padding: 6rem 13rem;
+  padding: 2rem 12rem;
   h1 {
     font-size: 3rem;
     padding: 2rem 0;
@@ -122,9 +123,6 @@ header {
     font-size: 1.1rem;
     line-height: 1.5;
     color: rgba(0, 0, 0, 0.603);
-  }
-  .summery {
-    margin: auto;
   }
   .info {
     padding: 2rem 0;

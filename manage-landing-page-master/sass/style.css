@@ -27,7 +27,7 @@ a {
 }
 
 .row .col-md-6 {
-  width: 50%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -64,6 +64,7 @@ header .navbar .nav {
   display: -ms-flexbox;
   display: flex;
   margin: 0 2rem;
+  position: relative;
 }
 
 header .navbar .nav .nav-item {
@@ -80,6 +81,13 @@ header .navbar .nav .nav-item .nav-link {
 
 header .navbar .nav .nav-item .nav-link:hover {
   color: #000;
+}
+
+header .navbar .bg-top-img {
+  position: absolute;
+  top: -161px;
+  right: -39px;
+  z-index: -1;
 }
 
 header .header-content {
@@ -103,7 +111,7 @@ header .header-content .btn {
 }
 
 #info {
-  padding: 2rem 12rem;
+  padding: 6rem 13rem;
 }
 
 #info h1 {
@@ -115,6 +123,10 @@ header .header-content .btn {
   font-size: 1.1rem;
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.603);
+}
+
+#info .summery {
+  margin: auto;
 }
 
 #info .info {

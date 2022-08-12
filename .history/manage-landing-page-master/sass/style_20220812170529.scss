@@ -41,7 +41,7 @@ a {
   display: flex;
   justify-content: space-between;
   .col-md-6 {
-    max-width: 50%;
+    width: 50%;
     height: auto;
   }
 }
@@ -86,12 +86,14 @@ header {
           }
         }
       }
-    }
-    .bg-top-img {
-      position: absolute;
-      top: -161px;
-      right: -39px;
-      z-index: -1;
+      .bg-top-img {
+        img {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: fit-content;
+        }
+      }
     }
   }
 
@@ -113,7 +115,7 @@ header {
   }
 }
 #info {
-  padding: 6rem 13rem;
+  padding: 2rem 12rem;
   h1 {
     font-size: 3rem;
     padding: 2rem 0;
@@ -122,9 +124,6 @@ header {
     font-size: 1.1rem;
     line-height: 1.5;
     color: rgba(0, 0, 0, 0.603);
-  }
-  .summery {
-    margin: auto;
   }
   .info {
     padding: 2rem 0;
