@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+main {
+  background-color: #19a1ad;
+  height: 98vh;
+}
+
+main .card {
+  max-width: 21.5rem;
+  background-color: #fff;
+  position: relative;
+  z-index: 1111;
+  top: 30%;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+main .card .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .card .profile .cover-img {
+  background-size: cover;
+}
+
+main .card .profile .profile__img {
+  border-radius: 50%;
+  margin-top: -50%;
+  border: 5px solid gainsboro;
+  position: relative;
+  z-index: 111;
+}
+
+main .card .profile .profile__bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+main .card .profile .profile__bio .profile__name {
+  font-weight: 700;
+}
+
+main .card .profile .profile__bio .profile__age {
+  font-weight: 400;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 0 10px;
+}
+
+main .card .profile .profile__location {
+  font-weight: 400;
+  padding: 5px 0 10px 0;
+}
+
+main .card .statistics {
+  border-top: 2px solid rgba(0, 0, 0, 0.116);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  text-align: center;
+}
+
+main .card .statistics .followers {
+  padding: 10px;
+}
+
+main .card .statistics .count {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+main .card .statistics span {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */

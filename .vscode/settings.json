@@ -1,4 +1,15 @@
 {
   "livePreview.defaultPreviewPath": "/test/text.html",
-  "cSpell.words": ["Fraunces", "Fylo"]
+  "cSpell.words": [
+    "Bitmasking",
+    "checkcon",
+    "Fraunces",
+    "Fylo",
+    "Kipawa",
+    "ninputs"
+  ],
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "iostream": "cpp"
+  }
 }

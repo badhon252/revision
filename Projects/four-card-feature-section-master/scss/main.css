@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  height: 98vh;
+}
+
+.heading {
+  padding: 30px;
+  text-align: center;
+}
+
+.heading .h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.heading .h2 {
+  font-size: 2.4rem;
+  font-weight: 200;
+}
+
+.heading .para {
+  font-weight: 200;
+  color: #555555;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card .col-1,
+.card .col-2-top,
+.card .col-2-bottom,
+.card .col-3 {
+  padding: 20px;
+  margin: 20px;
+  max-height: 300px;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.card .col-1 h3,
+.card .col-2-top h3,
+.card .col-2-bottom h3,
+.card .col-3 h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card .col-1 p,
+.card .col-2-top p,
+.card .col-2-bottom p,
+.card .col-3 p {
+  font-weight: 200;
+  font-size: 1.1rem;
+}
+
+.card .col-1,
+.card .col-3 {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.card .col-1 {
+  border-top: 3px solid #43d3d3;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 70, 182, 0.418);
+          box-shadow: 0px 0px 12px 0px rgba(0, 70, 182, 0.418);
+}
+
+.card .col-2-top {
+  border-top: 3px solid #ea5453;
+  -webkit-box-shadow: 0px 3px 12px 0px rgba(0, 70, 182, 0.418);
+          box-shadow: 0px 3px 12px 0px rgba(0, 70, 182, 0.418);
+}
+
+.card .col-2-bottom {
+  border-top: 3px solid #fbad4b;
+  -webkit-box-shadow: 0px 3px 12px 0px rgba(0, 70, 182, 0.418);
+          box-shadow: 0px 3px 12px 0px rgba(0, 70, 182, 0.418);
+}
+
+.card .col-3 {
+  border-top: 3px solid #549cf0;
+  -webkit-box-shadow: 0px 3px 12px 0px rgba(0, 70, 182, 0.418);
+          box-shadow: 0px 3px 12px 0px rgba(0, 70, 182, 0.418);
+}
+
+.card h3 {
+  padding: 10px 0;
+}
+
+.card img {
+  display: block;
+  padding: 15px;
+  margin: 10px 0 10px auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (min-width: 1440px) {
+  .para {
+    color: #8f1818;
+  }
+}
+/*# sourceMappingURL=main.css.map */
