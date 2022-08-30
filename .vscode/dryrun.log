@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/khalid/Desktop/Revision'
+make: Leaving directory '/home/khalid/Desktop/Revision'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

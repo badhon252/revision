@@ -79,10 +79,10 @@ int main() {
    //    cout<<"It's not running!";
    // }
 
-// printing start piramid 
-   int  i, j, n;
+// printing start pyramid 
+   int  i, j, n=5;
 cout << "Enter number of rows:  ";
-cin >> n;
+
 for(i = 1; i <= n; i++)
 {
 for(j = 1; j <= i; j++)
