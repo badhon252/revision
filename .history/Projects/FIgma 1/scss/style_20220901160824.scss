@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header {
+  nav {
+    display: flex;
+    .navbar-lists {
+      display: flex;
+      .nav-items {
+        margin: 0 25px;
+        .nav-links {
+          list-style-type: none;
+        }
+      }
+    }
+  }
+}
