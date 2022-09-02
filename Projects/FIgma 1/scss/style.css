@@ -12,8 +12,7 @@ header,
 footer,
 .second-section,
 .fourth-section,
-.fifth-section,
-#footer {
+.fifth-section {
   margin: 0 10rem;
 }
 
@@ -448,8 +447,8 @@ footer,
 }
 
 .fifth-section .card:hover {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-          box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .fifth-section h1 {
@@ -518,9 +517,14 @@ footer,
 }
 
 #footer {
-  padding: 3rem 0;
+  margin: 3rem 0;
   position: relative;
   background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+#footer img {
   width: 100%;
   height: auto;
 }
@@ -529,7 +533,7 @@ footer,
   position: absolute;
   text-align: center;
   top: 36%;
-  right: 47%;
+  right: 31%;
 }
 
 #footer .explore h1 {
