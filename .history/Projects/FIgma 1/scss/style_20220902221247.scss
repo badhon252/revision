@@ -434,11 +434,9 @@ footer,
     // max-width: 100%;
     // max-height: 100%;
     // margin: 0 auto;
-    top: 36%;
+    top: 40%;
     right: 47%;
-    h1 {
-      font-weight: 600;
-    }
+
     p {
       font-size: 1.3rem;
       font-weight: 500;
@@ -446,17 +444,12 @@ footer,
       margin: 2rem 0;
     }
     .btn {
-      padding: 20px 40px;
+      padding: 25px 50px;
       background-color: #fff;
       color: #000;
-      border: 2px solid #dfe5e8;
+      border: 1px solid black;
       font-size: 1rem;
       font-weight: 600;
-      border-radius: 4px;
-      &:hover {
-        background-color: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
-      }
     }
   }
 }

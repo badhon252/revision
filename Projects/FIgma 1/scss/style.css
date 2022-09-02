@@ -11,7 +11,9 @@ section,
 header,
 footer,
 .second-section,
-.fourth-section {
+.fourth-section,
+.fifth-section,
+#footer {
   margin: 0 10rem;
 }
 
@@ -317,18 +319,22 @@ footer,
 
 .fourth-section .card {
   width: 25rem;
-  padding: 1rem;
   height: auto;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-          box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   margin-right: 3rem;
   text-align: center;
   border-radius: 10px;
+  margin-left: 1rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .fourth-section .card:hover {
   -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.fourth-section .card:hover .plan-tag {
+  background-color: rgba(159, 159, 233, 0.09);
 }
 
 .fourth-section .plan__one {
@@ -371,13 +377,12 @@ footer,
 .fourth-section .plan-tag {
   font-size: 2rem;
   padding: 1.5rem 0;
-  border-bottom: 1px solid black;
-  margin-top: -1rem;
-  margin-right: -1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+  margin-top: 0rem;
 }
 
 .fourth-section .free {
-  background-color: rgba(0, 0, 253, 0.089);
+  background-color: rgba(134, 134, 216, 0.09);
   margin-bottom: 5rem;
 }
 
@@ -414,5 +419,142 @@ footer,
   text-align: center;
   padding: 6rem 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+.fourth-section .learn-more {
+  padding-bottom: 2rem;
+}
+
+.fifth-section {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.fifth-section .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fifth-section .card {
+  max-width: 30rem;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.116);
+}
+
+.fifth-section .card:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.fifth-section h1 {
+  margin: 5rem 0;
+  font-weight: 600;
+}
+
+.fifth-section i {
+  margin-right: 5px;
+  color: #fbb040;
+}
+
+.fifth-section .first i {
+  color: #ffda55;
+}
+
+.fifth-section .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem 0;
+}
+
+.fifth-section .profile .img {
+  margin-right: 1rem;
+}
+
+.fifth-section .profile h3,
+.fifth-section .profile h4 {
+  font-weight: 400;
+  color: #1e2432;
+}
+
+.fifth-section .profile h4 {
+  color: #1e2432a9;
+  font-size: 1rem;
+}
+
+.fifth-section .review {
+  color: #7e8495;
+}
+
+.fifth-section .collabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 2rem;
+  margin: 3rem 0;
+}
+
+.fifth-section .collabs img {
+  margin-right: 10px;
+}
+
+.fifth-section .collabs .contact {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.767);
+}
+
+#footer {
+  padding: 3rem 0;
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+#footer .explore {
+  position: absolute;
+  text-align: center;
+  top: 36%;
+  right: 47%;
+}
+
+#footer .explore h1 {
+  font-weight: 600;
+}
+
+#footer .explore p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #1e2432;
+  margin: 2rem 0;
+}
+
+#footer .explore .btn {
+  padding: 20px 40px;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #dfe5e8;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+#footer .explore .btn:hover {
+  background-color: black;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

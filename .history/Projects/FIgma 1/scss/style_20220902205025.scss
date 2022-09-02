@@ -10,8 +10,7 @@ header,
 footer,
 .second-section,
 .fourth-section,
-.fifth-section,
-#footer {
+.fifth-section {
   margin: 0 10rem;
 }
 .btn {
@@ -350,113 +349,17 @@ footer,
 }
 
 .fifth-section {
-  margin-top: 7rem;
-  margin-bottom: 7rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 
   .row {
     display: flex;
     justify-content: space-between;
   }
-
-  .card {
-    max-width: 30rem;
-    padding: 1rem 2rem;
-    margin: 1rem;
-    border-radius: 15px;
-    border: 1px solid rgba(0, 0, 0, 0.116);
-    &:hover {
-      box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
-        rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-    }
-  }
-
   h1 {
-    margin: 5rem 0;
-    font-weight: 600;
+    margin: 4rem 0;
   }
-
   i {
     margin-right: 5px;
-    color: #fbb040;
-  }
-  .first i {
-    color: #ffda55;
-  }
-
-  .profile {
-    display: flex;
-    padding: 2rem 0;
-    .img {
-      margin-right: 1rem;
-    }
-    h3,
-    h4 {
-      font-weight: 400;
-      color: #1e2432;
-    }
-    h4 {
-      color: #1e2432a9;
-      font-size: 1rem;
-    }
-  }
-
-  .review {
-    color: #7e8495;
-  }
-
-  .collabs {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 2rem;
-    margin: 3rem 0;
-    img {
-      margin-right: 10px;
-    }
-    .contact {
-      font-size: 1rem;
-      font-weight: 500;
-      line-height: 1.5;
-      color: rgba(0, 0, 0, 0.767);
-    }
-  }
-}
-
-#footer {
-  padding: 3rem 0;
-  position: relative;
-  background-size: cover;
-  width: 100%;
-  height: auto;
-  .explore {
-    position: absolute;
-    text-align: center;
-    // max-width: 100%;
-    // max-height: 100%;
-    // margin: 0 auto;
-    top: 36%;
-    right: 47%;
-    h1 {
-      font-weight: 600;
-    }
-    p {
-      font-size: 1.3rem;
-      font-weight: 500;
-      color: #1e2432;
-      margin: 2rem 0;
-    }
-    .btn {
-      padding: 20px 40px;
-      background-color: #fff;
-      color: #000;
-      border: 2px solid #dfe5e8;
-      font-size: 1rem;
-      font-weight: 600;
-      border-radius: 4px;
-      &:hover {
-        background-color: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
-      }
-    }
   }
 }
