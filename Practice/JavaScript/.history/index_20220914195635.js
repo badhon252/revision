@@ -45,4 +45,4 @@
 
 // myName("Khalid", "Hossain");
 
-console.log("Hello world!, I'm Badhon!");
+console.log("Hello world!");
