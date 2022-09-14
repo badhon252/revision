@@ -78,3 +78,7 @@
 //   // again, the tailing () will execute this
 //   console.log(i + 3);
 // })(10);
+
+return new Promise((resolve, reject) => {
+  first;
+});

@@ -47,34 +47,4 @@
 
 // console.log("Hello world!, I'm Badhon!");
 
-// How to write a function?
-// var f = function (n) {
-//   console.log(n);
-// };
-// f(3); // logs 3
-
-// f(3); // what is f? breaks.
-// var f = function (n) {
-//   console.log(n);
-// };
-
-// function abc(n) {
-//   console.log(n);
-// }
-
-// abc(3); // logs 3
-// xyz(5); // logs 5
-
-// function xyz(n) {
-//   console.log(n);
-// }
-
-// (function () {
-//   // code in here will execute right away
-//   // since the () at the end executes this (function(){})
-// })();
-
-// !(function (i) {
-//   // again, the tailing () will execute this
-//   console.log(i + 3);
-// })(10);
+How to write a function?
